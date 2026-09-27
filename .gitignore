@@ -1,0 +1,19 @@
+# Build output
+site/
+pdf-build/
+.cache/
+
+# Pages generated at build time from root files (see hooks/root_docs.py)
+docs/project/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,4 @@
+# Site build dependencies. MkDocs 2.x is intentionally excluded (see docs/decisions.md, D-012).
+mkdocs>=1.6,<2
+mkdocs-material>=9.7,<10
+mkdocs-static-i18n>=1.3,<2
