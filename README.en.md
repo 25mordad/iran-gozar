@@ -35,6 +35,10 @@ The initial draft was written by **an AI** speaking as an "intellectual leader" 
 - **No judgments of real individuals.** Needed human resources are described as roles and skills, never names.
 - **Every document opens with a plain-language summary** of at most five sentences.
 
+## What's inside
+
+The manifesto and transition phases; an overview of what happens to each of 26 institutions and 17 cross-cutting topics (full texts in Persian, English summaries of every document); "What happens to me?" (the plan's promises to each citizen); a transition scorecard; the strongest critiques of the plan itself; draft open letters to the UN, the EU, Iran's neighbors and international financial institutions; an FAQ; a roles-and-skills directory; a Persian/English glossary; and a decision log recording why every choice was made. The [original brief](docs/origin.md) given to the AI is published too.
+
 ## Contributing
 
 - **Easiest:** on the website, click **"Fix this page"** at the bottom of any page. Nothing to install.

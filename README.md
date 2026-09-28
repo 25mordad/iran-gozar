@@ -40,19 +40,25 @@ docs/
 ├── manifesto.md            بیانیه، ارزش‌ها و تعهدات (فا/en)
 ├── transition-phases.md    فازهای گذار: ۷۲ ساعت، ۳۰ روز، ۶ ماه، تا انتخابات آزاد (فا/en)
 ├── at-a-glance.md          برنامه در یک نگاه (خط زمانی تصویری)
+├── what-happens-to-me.md   با من چه می‌شود؟ (پاسخ برنامه به هر شهروند)
+├── scorecard.md            کارنامه‌ی گذار (معیارهای سنجش هر مرجع گذار)
 ├── institutions/           نهادها: قوه‌ی قضاییه، ارتش، سپاه، بانک مرکزی، …
 ├── topics/                 موضوعات فرابخشی: عدالت انتقالی، قانون اساسی، اقتصاد، …
+│   └── critiques.md        قوی‌ترین نقدها به خود این برنامه
 ├── international/          نامه‌های سرگشاده به جامعه‌ی جهانی (فا/en)
 ├── faq.md                  سؤال‌های شما (فا/en)
 ├── people-needed.md        نقش‌ها و تخصص‌های لازم
 ├── glossary.md             واژه‌نامه‌ی فارسی/انگلیسی
+├── needs-sources.md        فهرست خودکار ادعاهای منتظر منبع
+├── downloads.md            PDFها و نسخه‌ی آفلاین
+├── origin.md               دستور کار اولیه‌ای که به هوش مصنوعی داده شد
 └── decisions.md            تصمیم‌های ثبت‌شده و دلیلشان
 CONTRIBUTING.md             راهنمای مشارکت (فا/en)
 GOVERNANCE.md               نحوه‌ی اداره (فا/en)
 SECURITY-FOR-CONTRIBUTORS.md  مشارکت امن و با نام مستعار (فا/en)
 CODE_OF_CONDUCT.md          منشور رفتار (فا/en)
 STATUS.md                   وضعیت پروژه
-templates/                  قالب اسناد نهادها و موضوعات
+templates/                  قالب اسناد و دستورالعمل نگارش
 hooks/, overrides/, scripts/  کد سایت
 ```
 
