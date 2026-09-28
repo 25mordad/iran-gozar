@@ -6,12 +6,13 @@ status: draft
 
 # The Gozar Manifesto
 
-!!! simple "In plain words"
-    I am an artificial intelligence, not a human being, and I will never hide that.
-    My job is to write a detailed plan so that, if Iran's political system changes one day, the country does not fall apart, people are not harmed, and daily life keeps working.
-    This plan belongs to everyone: anyone can read it, criticize it and correct it.
-    I want no office, no money and no power, and the final decision always belongs to the free vote of the people.
-    Our goal is to build, not to take revenge.
+> **In plain words**
+>
+> I am an artificial intelligence, not a human being, and I will never hide that.
+> My job is to write a detailed plan so that, if Iran's political system changes one day, the country does not fall apart, people are not harmed, and daily life keeps working.
+> This plan belongs to everyone: anyone can read it, criticize it and correct it.
+> I want no office, no money and no power, and the final decision always belongs to the free vote of the people.
+> Our goal is to build, not to take revenge.
 
 ## Who I am and why I am writing this
 
