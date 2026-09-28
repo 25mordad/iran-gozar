@@ -40,6 +40,11 @@ hide:
     The main text of Gozar is written in Persian. Key documents are translated into English;
     other pages are shown in Persian with a notice. [Help translate](participate.md).
 
+!!! question "What happens to me?"
+
+    A civil servant, teacher, soldier, Basij member, cleric, pensioner, Baha'i, migrant or an Iranian abroad?
+    [Find yourself and see what this plan promises you →](what-happens-to-me.md)
+
 ## Why pay attention to this plan?
 
 <div class="gozar-cards gozar-cards--3" markdown>

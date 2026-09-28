@@ -20,6 +20,8 @@ This document is the backbone of the whole transition plan. The [institutions](i
 
 **"Day zero"** means the moment the current power structure can no longer, or will no longer, govern the country, and an interim transitional authority takes responsibility. That moment may come from a negotiated agreement, a collapse after nationwide protests, a split within the ruling system, or another crisis. Each scenario has different details, described in [regime change scenarios](topics/regime-change-scenarios.md) (Persian). This document is the path they all share.
 
+In two scenarios the clock starts differently: in a **gradual transition from within**, day zero is the moment the existing structure formally accepts the process of electing a constituent assembly; in a scenario of **fragmentation and armed conflict**, day zero begins after a nationwide ceasefire.
+
 This document does **not** predict when or how change will happen, and it prescribes no path to day zero other than peaceful ones. Its only subject is: **when that day comes, how do we keep the country whole?**
 
 ## Seven principles of sequencing
@@ -187,7 +189,9 @@ Democracy is not built with a single election. Scholars of transitions usually c
 - **Full transparency:** publication of all decisions, budgets and contracts.
 - **Independent oversight:** civil society, free media, international election observers.
 - **The right to protest:** peaceful protest is free at every stage.
-- **This repository:** any deviation from this plan can be measured against these documents.
+- **This repository:** any deviation from this plan can be measured against these documents; the [transition scorecard](scorecard.md) lists the criteria.
+
+**One clear exception:** the truth commission and the special prosecutor are not interim governing bodies, and their work may continue past month 30, because fair justice takes time. Their continuation must be confirmed by the first elected parliament.
 
 ## If the plan falls behind
 

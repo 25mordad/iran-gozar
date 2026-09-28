@@ -1,6 +1,7 @@
 ---
 title: The plan at a glance
 description: All phases of the transition on one simple timeline, from the first 72 hours to free elections
+status: draft
 hide:
   - toc
 ---
