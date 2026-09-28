@@ -21,6 +21,8 @@ exclude = [
   # still be private or have no main branch when a PR is opened.
   '^https://github\.com/25mordad/iran-gozar',
   '^https?://(127\.0\.0\.1|localhost)',
+  # Pages generated at build time from the root files (hooks/root_docs.py); checked by mkdocs --strict.
+  'docs/project/',
   '^mailto:',
   '^https://t\.me/share',
   '^https://wa\.me/',
