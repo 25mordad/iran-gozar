@@ -7,19 +7,19 @@ max_retries = 3
 retry_wait_time = 5
 timeout = 30
 no_progress = true
-include_fragments = false
 
 # Many sites block automated checkers with 403 or rate-limit with 429; those are not broken links.
 accept = ["200..=299", "403", "429"]
 
-exclude_path = ["site", "node_modules", ".venv", "docs/project", "templates"]
+# docs/downloads*.md link to files that only exist in the deployed site (PDFs, ZIP).
+exclude_path = ["site", "node_modules", ".venv", "docs/project", "templates", "docs/downloads.md", "docs/downloads.en.md"]
 
 exclude = [
   # Links that only exist after the site is deployed or that need a login.
   '^https://25mordad\.github\.io/iran-gozar',
-  '^https://github\.com/25mordad/iran-gozar/(edit|issues/new|compare|fork)',
-  '^https://github\.com/25mordad/iran-gozar/blob/main/',
-  '^https://github\.com/25mordad/iran-gozar/tree/main/',
+  # This repository itself: links into it are checked by `mkdocs build --strict`, and it may
+  # still be private or have no main branch when a PR is opened.
+  '^https://github\.com/25mordad/iran-gozar',
   '^https?://(127\.0\.0\.1|localhost)',
   '^mailto:',
   '^https://t\.me/share',
