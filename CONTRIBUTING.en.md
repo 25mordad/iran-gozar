@@ -110,7 +110,7 @@ git checkout -b source/central-bank-inflation
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-mkdocs serve                       # open http://127.0.0.1:8000
+mkdocs serve                       # open http://127.0.0.1:8000/iran-gozar/
 
 # 4. Run the checks
 python scripts/check_docs.py
