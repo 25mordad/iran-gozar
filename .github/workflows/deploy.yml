@@ -42,9 +42,13 @@ jobs:
         run: python scripts/build_pdfs.py --site site --out site/pdf
 
       - name: Build offline copy (zip)
+        # A copy of the whole site that opens from a USB stick or phone without internet.
+        # It includes the two complete-plan PDFs, but not the per-document PDFs, to stay small.
         continue-on-error: true
         run: |
           GOZAR_OFFLINE=true mkdocs build --site-dir offline-site
+          mkdir -p offline-site/pdf
+          cp site/pdf/gozar-*.pdf offline-site/pdf/ 2>/dev/null || true
           (cd offline-site && zip -qr ../site/gozar-offline.zip .)
 
       - uses: actions/configure-pages@v5

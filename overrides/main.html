@@ -2,6 +2,41 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  {#-
+    Load the search index only when the reader actually opens search.
+    Material requests search/search_index.json (several MB for this site) on every page load;
+    on slow or metered connections in Iran that cost is not acceptable. This small script,
+    which runs before Material's bundle, holds that one request until search is used.
+  -#}
+  <script>
+    (function () {
+      var open = XMLHttpRequest.prototype.open, send = XMLHttpRequest.prototype.send;
+      var waiting = [], ready = /[?&]q=/.test(location.search);
+      function release() {
+        if (ready) return;
+        ready = true;
+        waiting.forEach(function (w) { send.apply(w[0], w[1]); });
+        waiting = [];
+      }
+      XMLHttpRequest.prototype.open = function (method, url) {
+        this.__gozarIndex = /search\/search_index\.json/.test(String(url));
+        // Each language has its own, smaller index (see hooks/gozar.py).
+        if (this.__gozarIndex && (document.documentElement.lang || "").indexOf("en") === 0) {
+          arguments[1] = String(url).replace(/search\/search_index\.json/, "en/search/search_index.json");
+        }
+        return open.apply(this, arguments);
+      };
+      XMLHttpRequest.prototype.send = function () {
+        if (this.__gozarIndex && !ready) { waiting.push([this, arguments]); return; }
+        return send.apply(this, arguments);
+      };
+      function inSearch(e) { return e.target && e.target.closest && e.target.closest(".md-search, label[for='__search']"); }
+      document.addEventListener("focusin", function (e) { if (inSearch(e)) release(); }, true);
+      document.addEventListener("pointerdown", function (e) { if (inSearch(e)) release(); }, true);
+      document.addEventListener("change", function (e) { if (e.target && e.target.id === "__search") release(); }, true);
+      document.addEventListener("keydown", function (e) { if ("/sSfF".indexOf(e.key) >= 0) release(); }, true);
+    })();
+  </script>
   {#- The only font is bundled locally: nothing is loaded from external services. -#}
   <link rel="preload" href="{{ 'assets/fonts/Vazirmatn-Variable.woff2' | url }}" as="font" type="font/woff2" crossorigin>
   <meta property="og:type" content="website">

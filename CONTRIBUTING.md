@@ -378,7 +378,7 @@ fixed stuff and added more things to several files   ← چند تغییر نا�
 | `امنیت` | مربوط به امنیت مشارکت‌کنندگان |
 | `رفتار` | گزارش نقض منشور رفتار |
 
-فهرست کامل در [`.github/labels.yml`](.github/labels.yml).
+فهرست کامل در [labels.yml](.github/labels.yml).
 
 ### چقدر باید صبر کنم؟
 

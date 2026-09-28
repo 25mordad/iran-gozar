@@ -1,6 +1,8 @@
 ---
 title: Claims awaiting a source
 description: An automatic list of every claim in the English Gozar documents that still has no source
+search:
+  exclude: true
 ---
 
 # Claims awaiting a source

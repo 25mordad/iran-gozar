@@ -216,7 +216,7 @@ If your change relates to an issue, write `Closes #<issue-number>`.
 4. **Public comment period:** content changes stay open at least 7 days, changes to principles at least 30 days. See [Governance](GOVERNANCE.en.md).
 5. **Merge or rejection.**
 
-Labels are defined in [`.github/labels.yml`](.github/labels.yml); names are in Persian with English descriptions.
+Labels are defined in [labels.yml](.github/labels.yml); names are in Persian with English descriptions.
 
 **How long will it take?** We aim to respond **within 7 days**. Everyone is a volunteer; if you hear nothing after 14 days, leave a polite reminder in the PR.
 

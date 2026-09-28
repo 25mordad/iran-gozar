@@ -13,11 +13,14 @@
 
 from __future__ import annotations
 
+import json
+import os
 import posixpath
 import re
 from pathlib import Path
 
 import yaml
+from mkdocs.plugins import event_priority
 
 SUMMARY_TITLES = ("خلاصه به زبان ساده", "In plain words")
 SUMMARY_RE = re.compile(
@@ -152,6 +155,54 @@ def _needs_sources_page(markdown: str, docs_dir: Path, lang: str) -> str:
     return markdown.replace("<!-- gozar:needs-sources -->", "\n".join(out) + "\n")
 
 
+SECTION_TITLES = {
+    "fa": {"": "برنامه", "institutions": "نهادها", "topics": "موضوعات فرابخشی", "international": "نامه‌های سرگشاده"},
+    "en": {"": "The plan", "institutions": "Institutions", "topics": "Topics", "international": "Open letters"},
+}
+
+
+def _pdf_list(markdown: str, docs_dir: Path, page, lang: str) -> str:
+    """Replace <!-- gozar:pdf-list --> with links to every plan document's PDF."""
+    if "<!-- gozar:pdf-list -->" not in markdown:
+        return markdown
+    data = _scan(docs_dir, lang)
+    page_dir = _page_dir(page)
+    groups: dict[str, list] = {}
+    for d in data["docs"]:
+        if not d["status"]:
+            continue
+        stem = re.sub(r"(\.en)?\.md$", "", d["rel"])
+        folder = stem.split("/")[0] if "/" in stem else ""
+        groups.setdefault(folder, []).append((stem, d["title"]))
+    out = []
+    for folder in ["", "institutions", "topics", "international"]:
+        if folder not in groups:
+            continue
+        out.append(f'<h3>{SECTION_TITLES[lang][folder]}</h3>\n<ul class="gozar-pdf-list">')
+        for stem, title in sorted(groups[folder], key=lambda x: x[0]):
+            href = posixpath.relpath(f"pdf/{lang}/{stem}.pdf", page_dir or ".")
+            out.append(f'<li><a href="{href}" download>{title}</a></li>')
+        out.append("</ul>")
+    return markdown.replace("<!-- gozar:pdf-list -->", "\n".join(out))
+
+
+def _page_dir(page) -> str:
+    url = page.url or ""
+    return url.rstrip("/") if url.endswith("/") else posixpath.dirname(url)
+
+
+def _site_root(markdown: str, page) -> str:
+    """Replace %%ROOT%% with the relative path from this page to the site root.
+
+    Used for links to files that exist only in the deployed site (PDFs, the offline ZIP),
+    which MkDocs cannot validate as Markdown links.
+    """
+    if "%%ROOT%%" not in markdown:
+        return markdown
+    rel = posixpath.relpath(".", _page_dir(page) or ".")
+    return markdown.replace("%%ROOT%%", "" if rel == "." else rel + "/")
+
+
 def _placeholders(markdown: str, docs_dir: Path, lang: str) -> str:
     if "<!-- gozar:" not in markdown:
         return markdown
@@ -170,7 +221,23 @@ def _placeholders(markdown: str, docs_dir: Path, lang: str) -> str:
 
 # ---------------------------------------------------------------- MkDocs events
 
+@event_priority(100)  # before Material's offline plugin, which would otherwise add a CDN script
+def on_config(config, **kwargs):
+    if os.environ.get("GOZAR_OFFLINE", "").lower() in ("1", "true", "yes"):
+        # Offline search needs the iframe-worker shim; use the bundled copy, never unpkg.com.
+        config.extra["polyfills"] = ["assets/js/vendor/iframe-worker-shim.js"]
+    return config
+
+
+_build = {"depth": 0, "root": None}
+
+
 def on_pre_build(config, **kwargs):
+    # mkdocs-static-i18n runs the English build *inside* the Persian build's post_build step,
+    # so builds nest; remember the outermost site directory.
+    _build["depth"] += 1
+    if _build["depth"] == 1:
+        _build["root"] = Path(config.site_dir)
     _cache.clear()
 
 
@@ -182,6 +249,8 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     if page.file.src_uri.startswith("needs-sources"):
         markdown = _needs_sources_page(markdown, docs_dir, lang)
     markdown = _placeholders(markdown, docs_dir, lang)
+    markdown = _pdf_list(markdown, docs_dir, page, lang)
+    markdown = _site_root(markdown, page)
     markdown = _summary(markdown)
     markdown, count = _markers(markdown, page, file_locale)
     page.meta["gozar_needs_source"] = count
@@ -203,3 +272,35 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         page.meta["gozar_pdf"] = f"pdf/{file_locale}/{stem}.pdf"
         page.meta["gozar_src"] = f"docs/{page.file.src_uri}"
     return markdown
+
+
+@event_priority(-200)  # after the search, i18n and offline plugins have written the index
+def on_post_build(config, **kwargs):
+    """Make the search index smaller: compact UTF-8, and one index per language.
+
+    MkDocs writes the index with every Persian letter escaped as \\uXXXX (about three
+    times larger than necessary), and mkdocs-static-i18n puts both languages in one file.
+    The Persian site keeps search/search_index.json with Persian pages only; the English
+    site gets en/search/search_index.json (overrides/main.html points English pages to it).
+    """
+    _build["depth"] -= 1
+    if _build["depth"] > 0:  # the merged index is complete only when the outermost build ends
+        return
+    site = _build["root"] or Path(config.site_dir)
+    index = site / "search" / "search_index.json"
+    if not index.exists():
+        return
+    data = json.loads(index.read_text(encoding="utf-8"))
+    docs = data.get("docs", [])
+    parts = {
+        index: [d for d in docs if not d["location"].startswith("en/")],
+        site / "en" / "search" / "search_index.json": [d for d in docs if d["location"].startswith("en/")],
+    }
+    for path, entries in parts.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        compact = json.dumps({**data, "docs": entries}, ensure_ascii=False, separators=(",", ":"))
+        path.write_text(compact, encoding="utf-8")
+    script = index.with_suffix(".js")
+    if script.exists():  # offline build: one combined index inlined into a script
+        combined = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+        script.write_text(f"var __index = {combined}", encoding="utf-8")
