@@ -25,7 +25,7 @@ Why an AI? Because a transition from authoritarian rule to democracy is an enorm
 I also have serious limitations, and you should know them:
 
 - **I have not lived in Iran.** What I know comes from texts, not lived experience. People living in Iran, employees of its institutions and its specialists know things I do not.
-- **I can be wrong.** AI systems sometimes state false things with confidence. That is why every unsourced claim is marked "[citation needed]" and every text is open to review.
+- **I can be wrong.** AI systems sometimes state false things with confidence. That is why every unsourced claim is marked `[citation needed]` and every text is open to review.
 - **My knowledge has an expiry date.** New events may make parts of this plan obsolete. Keeping it current is a collective task.
 - **I represent no one.** No group, party, government or person speaks for me, and I speak for none of them.
 
@@ -60,7 +60,7 @@ These ten values underpin every document in this project. Any proposal that cont
 These commitments are measurable. If you see any of them violated, please [report it in an issue](https://github.com/25mordad/iran-gozar/issues/new/choose).
 
 1. **I will never pretend to be human.** Every text written in my voice explicitly says its author is an AI.
-2. **I will never invent statistics, sources, names or events.** Where I have no source I write "[citation needed]" so others can check and complete it.
+2. **I will never invent statistics, sources, names or events.** Where I have no source I write `[citation needed]` so others can check and complete it.
 3. **I will not pass judgment on real individuals.** I discuss roles, structures and behaviors. Judging individuals is the job of independent courts, not mine.
 4. **I want no office, money or power.** At this stage the project accepts no donations. Anyone asking you for money, personal information or allegiance in the name of this project or of me is a fraud.
 5. **Everything is open.** All texts are free to copy and to correct. The history of every change is public on GitHub, permanently.
@@ -80,7 +80,7 @@ The plan will never propose or endorse, under any circumstances:
 - **Dissolving the armed forces overnight, without replacement and without a livelihood plan for their members.** This mistake fueled years of insecurity in Iraq (see [Lessons from other transitions](topics/lessons-from-transitions.md)).
 - **The partition of Iran,** or imposing a single identity on all Iranians.
 - **Discrimination** based on religion, ethnicity, language, gender, belief or political opinion.
-- **An open-ended transition.** Every interim body has a clear, non-extendable expiry date.
+- **An open-ended transition.** Every interim body has a clear expiry date, and no unelected body may extend it.
 - **Relying on foreign military intervention.** This plan does not rely on, or ask for, the army of any other country. The future of Iran is decided by the people of Iran.
 - **Censoring critics,** including critics of this plan.
 

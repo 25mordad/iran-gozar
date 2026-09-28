@@ -168,6 +168,91 @@ plugins:
             مشارکت: Take part
             پروژه: The project
 
+nav:
+  - خانه: index.md
+  - برنامه:
+      - at-a-glance.md
+      - manifesto.md
+      - transition-phases.md
+      - what-happens-to-me.md
+      - scorecard.md
+      - faq.md
+  - نهادها:
+      - institutions/index.md
+      - امنیت و عدالت:
+          - institutions/judiciary.md
+          - institutions/prisons.md
+          - institutions/police.md
+          - institutions/intelligence.md
+          - institutions/army.md
+          - institutions/irgc-basij.md
+      - حاکمیت و سیاست:
+          - institutions/leadership-councils.md
+          - institutions/parliament.md
+          - institutions/elections.md
+          - institutions/civil-service.md
+          - institutions/governorates.md
+          - institutions/municipalities.md
+          - institutions/foreign-affairs.md
+      - اقتصاد و انرژی:
+          - institutions/central-bank.md
+          - institutions/public-finance.md
+          - institutions/oil-energy.md
+          - institutions/bonyads.md
+          - institutions/social-security.md
+          - institutions/atomic-energy.md
+      - جامعه و خدمات:
+          - institutions/health.md
+          - institutions/water-environment.md
+          - institutions/education.md
+          - institutions/universities.md
+          - institutions/media.md
+          - institutions/telecom-internet.md
+          - institutions/religious-institutions.md
+  - موضوعات:
+      - topics/index.md
+      - عدالت و حقوق:
+          - topics/transitional-justice.md
+          - topics/constitution.md
+          - topics/civil-liberties.md
+          - topics/women-rights.md
+          - topics/religious-freedom.md
+          - topics/ethnic-rights-decentralization.md
+      - امنیت و سناریوها:
+          - topics/regime-change-scenarios.md
+          - topics/security-and-civil-war-prevention.md
+          - topics/essential-services.md
+          - topics/public-communication.md
+      - اقتصاد:
+          - topics/transition-economy.md
+          - topics/sanctions-and-global-finance.md
+          - topics/anti-corruption.md
+      - تاریخ و تجربه‌ها:
+          - topics/lessons-from-transitions.md
+          - topics/iran-history-lessons.md
+          - topics/diaspora.md
+      - topics/critiques.md
+  - جهان:
+      - international/index.md
+      - international/un.md
+      - international/eu.md
+      - international/neighbors.md
+      - international/ifis.md
+  - مشارکت:
+      - participate.md
+      - needs-sources.md
+      - people-needed.md
+      - downloads.md
+      - project/contributing.md
+      - project/security.md
+      - project/governance.md
+      - project/code-of-conduct.md
+      - پروژه:
+          - decisions.md
+          - origin.md
+          - glossary.md
+          - project/status.md
+
 hooks:
   - hooks/root_docs.py
   - hooks/gozar.py
@@ -192,6 +277,3 @@ validation:
   unrecognized_links: warn
   anchors: warn
 
-not_in_nav: |
-  /needs-sources*.md
-  /project/status*.md

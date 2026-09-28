@@ -66,7 +66,7 @@ important decisions recorded in docs/decisions.md
 A content change is accepted when it:
 
 1. **Is consistent with the project's principles.** No change that violates the red lines (e.g. calling for revenge or collective punishment) is accepted, however well argued. Changing the red lines themselves is only possible through the "principles" route.
-2. **Is sourced.** Factual claims (statistics, events, laws) have a verifiable source or are marked "[citation needed]".
+2. **Is sourced.** Factual claims (statistics, events, laws) have a verifiable source or are marked `[citation needed]`.
 3. **Improves accuracy.** Changes that make the text vaguer, more one-sided or less precise are not accepted.
 4. **Preserves fairness.** On contested issues, removing or weakening a viewpoint needs a clear reason. Adding the strongest argument for a viewpoint is always welcome.
 5. **Keeps the plain summary current.** If the change alters the document's main message, the plain-language summary is updated too.

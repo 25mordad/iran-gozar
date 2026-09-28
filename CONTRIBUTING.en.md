@@ -47,7 +47,7 @@
 | Kind | Example | Best route | Difficulty |
 |---|---|---|---|
 | **Fix a typo** | a missing half-space in Persian | Direct edit (simple way) | Very easy |
-| **Add a source** | Replace a "[citation needed]" with a reliable source | Direct edit | Easy |
+| **Add a source** | Replace a `[citation needed]` with a reliable source | Direct edit | Easy |
 | **Correct content** | Fix a wrong fact or a weak argument | Direct edit or professional way | Medium |
 | **Critique a section** | "This proposal won't work in border provinces, because…" | Issue of type "Critique" | Easy |
 | **Propose a new document or institution** | "We need a document on agriculture and food security" | Issue first, then PR | Hard |
@@ -55,7 +55,7 @@
 | **Help with the website** | Improve mobile layout, fix search | Professional way | Medium–hard |
 | **Review** | Read others' PRs and comment | The Pull requests tab | Easy |
 
-**Tip:** "[citation needed]" markers are the best place to start. On the website, the [Sources needed](docs/needs-sources.md) page lists all of them. Issues labeled `مبتدی-پسند` (good first issue) are also good starting points.
+**Tip:** `[citation needed]` markers are the best place to start. On the website, the [Sources needed](docs/needs-sources.md) page lists all of them. Issues labeled `مبتدی-پسند` (good first issue) are also good starting points.
 
 ## The simple way
 
@@ -171,7 +171,7 @@ If your change relates to an issue, write `Closes #<issue-number>`.
 
 ## Checklist before submitting
 
-- [ ] **Sourced?** Every new factual claim (number, event, law) has a source or is marked "[citation needed]".
+- [ ] **Sourced?** Every new factual claim (number, event, law) has a source or is marked `[citation needed]`.
 - [ ] **Plain summary updated?** If the document's main message changed, the "In plain words" summary at the top is updated and still has at most 5 sentences.
 - [ ] **Consistent with the project's principles?** It does not contradict the [manifesto](docs/manifesto.en.md), values or red lines.
 - [ ] **Respectful tone?** No insults, labels or judgments about real individuals.
@@ -239,7 +239,7 @@ Disagreement about content is **welcome**; this plan only improves through criti
 
 > **Title:** `water-environment: add source for land subsidence in major plains`
 >
-> **What changed:** In "Current situation", I completed the subsidence sentence that was marked "[citation needed]" with a source and added the names of two plains mentioned in the report.
+> **What changed:** In "Current situation", I completed the subsidence sentence that was marked `[citation needed]` with a source and added the names of two plains mentioned in the report.
 >
 > **Why:** This claim is one of the document's key arguments; without a source, critics could dismiss it.
 >

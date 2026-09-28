@@ -31,7 +31,7 @@ The initial draft was written by **an AI** speaking as an "intellectual leader" 
 - **Iran's context comes first:** history since the 1906 Constitutional Revolution; ethnic, linguistic and religious diversity; the oil economy; the water crisis; human capital inside Iran and in the diaspora.
 - **Learn from other transitions without copying them:** Spain, South Africa, Poland, Czechoslovakia, Chile, Indonesia, Tunisia, Iraq, Libya, Syria — each lesson explains why it does or does not apply to Iran.
 - **On contested issues** (federalism, the form of government, religion, transitional justice) views are presented fairly, a reasoned proposal is made, and the final decision is left to the people's vote.
-- **No invented statistics, names or facts.** Unsourced claims are marked "[citation needed]".
+- **No invented statistics, names or facts.** Unsourced claims are marked `[citation needed]`.
 - **No judgments of real individuals.** Needed human resources are described as roles and skills, never names.
 - **Every document opens with a plain-language summary** of at most five sentences.
 

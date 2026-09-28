@@ -28,7 +28,7 @@ This document does **not** predict when or how change will happen, and it prescr
 2. **No legal vacuum.** All existing laws remain valid unless explicitly and publicly suspended (such as discriminatory laws, executions, censorship and internet filtering). This prevents legal chaos.
 3. **No administrative vacuum.** All state employees stay in their jobs and are paid. Removing any individual is only possible through a defined, individual and appealable procedure.
 4. **Justice starts on day one, but courts are not formed in haste.** In the first days, documents and evidence are preserved; trials take place after independent and fair courts exist.
-5. **Every interim body has an expiry date.** The interim authority lasts at most 12 months, and the whole transition, until power is handed to institutions elected under a new constitution, lasts at most 30 months.
+5. **Every interim body has an expiry date.** The interim authority lasts at most 12 months, and the whole transition, until power is handed to institutions elected under a new constitution, lasts at most 30 months. The stage limits add up: constituent assembly elections by month 10, drafting at most 12 months, the referendum within 2 months and general elections within 4 months after that — 28 months, with a 2-month margin. **No unelected body may extend this limit.**
 6. **Large and irreversible decisions are left to elected bodies.** The form of government, the constitution, the sale of major state assets and long-term foreign contracts cannot be finalized by the interim authority.
 7. **Each phase ends by criteria, not only by the calendar.** Each phase has clear criteria for being "done". If they are not met, the time limits still stand, and instead of extensions, predefined remedies apply (see "If the plan falls behind").
 
@@ -158,9 +158,9 @@ Most transition failures are decided in this phase: countries without a plan for
 
 **Goal:** people elect representatives who write a new constitution with broad public participation.
 
-1. **Constituent assembly elections** between month 6 and month 12 at the latest — the first fully free national election. In provinces where the independent electoral commission certifies readiness, **interim local councils** may be elected at the same time, so that cities and villages gain electoral legitimacy sooner.
+1. **Constituent assembly elections** between month 6 and month 10 at the latest — the first fully free national election. In provinces where the independent electoral commission certifies readiness, **interim local councils** may be elected at the same time, so that cities and villages gain electoral legitimacy sooner.
 2. **The end of the interim council.** At the first session of the constituent assembly, the interim council's powers end. Besides writing the constitution, the constituent assembly approves or appoints the interim government and passes only urgent laws.
-3. **Drafting the constitution** within at most 12 months of the constituent assembly's first session, with public sessions in every province and in several languages, the right of every citizen (including Iranians abroad) to submit proposals, and publication of all drafts and minutes.
+3. **Drafting the constitution** within at most 12 months of the constituent assembly's first session (target: 10 months), with public sessions in every province and in several languages, the right of every citizen (including Iranians abroad) to submit proposals, and publication of all drafts and minutes.
 4. **The question of the form of government.** Whether Iran is a republic or a constitutional monarchy, and whether its system is parliamentary or presidential, is among the most important decisions of this phase. **No referendum on the form of government is held in the first six months,** so that people have time for free and informed debate. The referendum of March 1979 (Farvardin 1358), held only two months after the revolution with a single "yes or no" option, is an example that must not be repeated. [citation needed] Options and my proposal are in the [constitution](topics/constitution.md) document (Persian).
 5. **Certification.** An interim constitutional court or an independent legal panel checks that the final draft complies with the foundational principles of the transitional charter.
 6. **Constitutional referendum** at most two months after adoption by the constituent assembly, under domestic and international observation.
@@ -169,7 +169,7 @@ Most transition failures are decided in this phase: countries without a plan for
 
 ## Phase 5: About month 24 to month 30 at the latest — free elections and handover
 
-- **General elections** for the institutions foreseen in the new constitution (parliament, and if foreseen, the head of state), at most six months after the referendum.
+- **General elections** for the institutions foreseen in the new constitution (parliament, and if foreseen, the head of state), at most four months after the referendum. Preparations (voter register, districts, observers) start while the constitution is being drafted so that this window is enough.
 - **Local elections** (city and village councils and, if foreseen, provincial councils).
 - **A formal and public handover** from the interim government to the elected government.
 - **Dissolution of all interim bodies** that have no place in the new constitution.
@@ -193,9 +193,10 @@ Democracy is not built with a single election. Scholars of transitions usually c
 
 No plan runs exactly on schedule. The general rule is: **delay is allowed; extending interim power is not.**
 
-- **If security does not allow constituent assembly elections by month 12:** elections are held in secure provinces and seats for other areas are filled as soon as possible; or, if insecurity is widespread, the national advisory assembly may approve a single extension of at most three months by a two-thirds vote.
-- **If the constituent assembly has not written the constitution within 12 months:** one three-month extension by a two-thirds vote is allowed; after that, the assembly is dissolved and a new one is elected. Tunisia's constituent assembly took much longer than originally planned, and the delay fed public distrust. [citation needed]
-- **If the constitution is rejected in the referendum:** this is not failure but the people's message. The constituent assembly presents a revised draft within six months. Chile rejected two draft constitutions in referendums in 2022 and 2023, and its political system still held. [citation needed]
+- **If security does not allow constituent assembly elections everywhere by month 10:** elections are held in the provinces that are secure, and the assembly convenes once at least two-thirds of its seats are filled; other seats are filled as soon as possible. The interim council's life never exceeds 12 months, **under any circumstances**.
+- **If the constituent assembly has not written the constitution within 12 months:** one two-month extension by a two-thirds vote is allowed (the same two-month margin within the 30-month limit); after that, the assembly is dissolved and a new one is elected. Tunisia's constituent assembly took much longer than originally planned, and the delay fed public distrust. [citation needed]
+- **If an exceptional event occurs** (war, a large-scale disaster, or insecurity that makes elections impossible): only the **elected constituent assembly** may, by a two-thirds vote, once, and by at most six months, move the 30-month limit; no unelected body has that right.
+- **If the constitution is rejected in the referendum:** this is not failure but the people's message. The constituent assembly presents a revised draft within six months; this is the only case in which the 30-month limit moves automatically, by those six months, because the people themselves made that decision in the referendum. Chile rejected two draft constitutions in referendums in 2022 and 2023, and its political system still held. [citation needed]
 
 ## Open questions for public discussion
 
