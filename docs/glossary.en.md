@@ -20,7 +20,7 @@ status: draft
 - Entries are in English alphabetical order. The Persian version of this page follows the Persian alphabet.
 - Definitions are short and neutral and pass no judgment on any person or group. The full explanation and arguments are in the linked document.
 - Names of bodies proposed by this plan are proposals, not decisions; the final decision belongs to elected institutions and a free vote of the people.
-- Any specific claim without a firm source is marked [citation needed].
+- Any specific claim without a firm source is marked `[citation needed]`.
 
 ## A
 
