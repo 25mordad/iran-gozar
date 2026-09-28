@@ -1,6 +1,7 @@
 ---
 title: Cross-cutting topics
 description: Issues that belong to no single institution and shape the whole transition — with an English summary of every document
+status: draft
 ---
 
 # Cross-cutting topics
