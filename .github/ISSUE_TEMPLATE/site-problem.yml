@@ -1,0 +1,55 @@
+name: "🌐 مشکل سایت / Website problem"
+description: "چیزی در سایت درست کار نمی‌کند یا درست نمایش داده نمی‌شود. / Something on the website doesn't work or display correctly."
+title: "[سایت] "
+labels: ["سایت"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: "کدام صفحه؟ / Which page?"
+      placeholder: "https://25mordad.github.io/iran-gozar/..."
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "چه اتفاقی افتاد؟ / What happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "انتظار داشتید چه اتفاقی بیفتد؟ / What did you expect?"
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: "دستگاه / Device"
+      options:
+        - "گوشی اندروید / Android phone"
+        - "آیفون / iPhone"
+        - "رایانه / Computer"
+        - "تبلت / Tablet"
+        - "دیگر / Other"
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: "مرورگر / Browser"
+      placeholder: "Chrome, Firefox, Safari, Tor Browser…"
+    validations:
+      required: false
+  - type: dropdown
+    id: network
+    attributes:
+      label: "شرایط اینترنت / Internet conditions"
+      description: "این سایت باید روی اینترنت کند و فیلترشده هم کار کند. / The site must work on slow and filtered connections too."
+      options:
+        - "عادی / Normal"
+        - "کند / Slow"
+        - "از طریق VPN یا Tor / Through a VPN or Tor"
+        - "نمی‌دانم / Don't know"
+    validations:
+      required: false

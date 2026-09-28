@@ -1,0 +1,58 @@
+name: "💬 نقد / Critique"
+description: "با یک پیشنهاد یا استدلال مخالفید؟ نقدتان را بنویسید. / Disagree with a proposal or argument? Write your critique."
+title: "[نقد] "
+labels: ["نقد"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        نقد، مهم‌ترین مشارکت در این پروژه است. به استدلال حمله کنید، نه به نویسنده. قوی‌ترین استدلالتان را بنویسید.
+        Critique is the most important contribution to this project. Attack the argument, not the author.
+
+        ⚠️ **هیچ اطلاعاتی درباره‌ی شهر، شغل یا خانواده‌تان ننویسید. / Do not write anything that identifies you.**
+  - type: input
+    id: document
+    attributes:
+      label: "کدام سند؟ / Which document?"
+      placeholder: "docs/transition-phases.md"
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: "کدام بخش؟ / Which section?"
+      placeholder: "مثلاً: «چه کسی در دوران گذار تصمیم می‌گیرد؟»"
+    validations:
+      required: false
+  - type: textarea
+    id: critique
+    attributes:
+      label: "نقد شما / Your critique"
+      description: "با چه چیزی مخالفید و چرا؟ این پیشنهاد در عمل کجا شکست می‌خورد؟ / What do you disagree with and why? Where would it fail in practice?"
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: "پیشنهاد جایگزین / Alternative proposal"
+      description: "اگر راه بهتری سراغ دارید، بنویسید. / If you know a better way, describe it."
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "شواهد و منابع / Evidence and sources"
+      description: "تجربه‌ی کشورهای دیگر، پژوهش‌ها، داده‌ها یا تجربه‌ی زیسته. / Other countries' experience, research, data, or lived experience."
+    validations:
+      required: false
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "نوع اختلاف / Kind of disagreement"
+      options:
+        - "واقعی (درباره‌ی یک عدد یا رویداد) / Factual"
+        - "فنی (کارآمدی یک سیاست) / Technical (effectiveness of a policy)"
+        - "ارزشی (درباره‌ی اصول و اولویت‌ها) / Values (principles and priorities)"
+        - "نمی‌دانم / Not sure"
+    validations:
+      required: false

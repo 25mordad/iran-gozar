@@ -1,0 +1,13 @@
+{#- Extends Material's base template. See docs/decisions.md (site design). -#}
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {#- The only font is bundled locally: nothing is loaded from external services. -#}
+  <link rel="preload" href="{{ 'assets/fonts/Vazirmatn-Variable.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{% if page and page.title and not page.is_homepage %}{{ page.title | striptags }} · {% endif %}{{ config.site_name }}">
+  <meta property="og:description" content="{{ (page.meta.description if page and page.meta and page.meta.description else config.site_description) | e }}">
+  {% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+{% endblock %}

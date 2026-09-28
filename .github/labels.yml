@@ -1,0 +1,67 @@
+# Label definitions for the repository. Synced to GitHub by .github/workflows/labels.yml.
+# Names are Persian (the project's main language); descriptions are bilingual.
+# To add or change a label, edit this file and open a PR.
+
+- name: "مبتدی-پسند"
+  color: "7057ff"
+  description: "مناسب برای شروع / Good first issue"
+
+- name: "نیاز-به-منبع"
+  color: "fbca04"
+  description: "ادعایی که منبع لازم دارد / A claim that needs a source"
+
+- name: "محتوا"
+  color: "0e8a16"
+  description: "تغییر یا بحث محتوایی / Content change or discussion"
+
+- name: "اصلاحیه"
+  color: "c5def5"
+  description: "اصلاح خطا در متن موجود / Correction of an error"
+
+- name: "نقد"
+  color: "d93f0b"
+  description: "نقد یک بخش یا پیشنهاد / Critique of a section or proposal"
+
+- name: "سند-جدید"
+  color: "1d76db"
+  description: "پیشنهاد نهاد یا سند جدید / Proposal for a new institution or document"
+
+- name: "ترجمه"
+  color: "5319e7"
+  description: "ترجمه یا اصلاح ترجمه / Translation"
+
+- name: "سایت"
+  color: "006b75"
+  description: "سایت، طراحی و ابزارها / Website, design and tooling"
+
+- name: "مورد-اختلاف"
+  color: "b60205"
+  description: "اختلاف نظر محتوایی در روند حل اختلاف / Contested; in the dispute-resolution process"
+
+- name: "نیاز-به-بازبینی-تخصصی"
+  color: "f9d0c4"
+  description: "متخصص حوزه باید نظر بدهد / Needs review by a specialist"
+
+- name: "اصول"
+  color: "000000"
+  description: "تغییر در بیانیه، ارزش‌ها، خطوط قرمز یا نحوه‌ی اداره (۳۰ روز نقد) / Change to principles (30-day comment period)"
+
+- name: "امنیت"
+  color: "e11d21"
+  description: "امنیت مشارکت‌کنندگان یا خوانندگان / Safety of contributors or readers"
+
+- name: "رفتار"
+  color: "5c5c5c"
+  description: "گزارش نقض منشور رفتار / Code of Conduct report"
+
+- name: "در-انتظار-پاسخ"
+  color: "ededed"
+  description: "منتظر پاسخ نویسنده / Waiting for the author's response"
+
+- name: "تکراری"
+  color: "cfd3d7"
+  description: "قبلاً مطرح شده است / Duplicate"
+
+- name: "ایده"
+  color: "a2eeef"
+  description: "ایده‌ی تازه برای پروژه یا سایت / New idea for the project or website"

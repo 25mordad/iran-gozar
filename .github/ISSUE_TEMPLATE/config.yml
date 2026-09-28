@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "🛡️ پیش از هر چیز: راهنمای مشارکت امن / Safe contribution guide"
+    url: https://github.com/25mordad/iran-gozar/blob/main/SECURITY-FOR-CONTRIBUTORS.md
+    about: "اگر در ایران هستید، پیش از نوشتن این را بخوانید. / If you are in Iran, read this before writing."
+  - name: "📖 راهنمای مشارکت / Contributing guide"
+    url: https://github.com/25mordad/iran-gozar/blob/main/CONTRIBUTING.md
+    about: "چطور پیشنهاد اصلاح بفرستم؟ / How do I propose a change?"
+  - name: "🌐 سایت گذار / Gozar website"
+    url: https://25mordad.github.io/iran-gozar/
+    about: "خواندن همه‌ی اسناد به زبان ساده / Read all documents"

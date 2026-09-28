@@ -1,0 +1,40 @@
+name: "✏️ اصلاحیه / Correction"
+description: "یک اشتباه در متن را گزارش کنید: واقعیت نادرست، عدد غلط، پیوند شکسته یا غلط تایپی. / Report an error: wrong fact, number, broken link or typo."
+title: "[اصلاحیه] "
+labels: ["اصلاحیه"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        از اینکه وقت می‌گذارید سپاسگزاریم. اگر خودتان می‌توانید متن را درست کنید، راه سریع‌تر دکمه‌ی «این صفحه را اصلاح کن» در پایین هر صفحه‌ی سایت است.
+        Thank you! If you can fix the text yourself, the faster route is the "Fix this page" button at the bottom of every page on the website.
+
+        ⚠️ **هیچ اطلاعاتی درباره‌ی شهر، شغل یا خانواده‌تان ننویسید. / Do not write anything that identifies you.**
+  - type: input
+    id: document
+    attributes:
+      label: "کدام سند؟ / Which document?"
+      description: "نام یا نشانی سند، مثلاً docs/institutions/police.md یا پیوند صفحه در سایت. / Name or address of the document."
+      placeholder: "docs/institutions/police.md"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "چه چیزی نادرست است؟ / What is wrong?"
+      description: "جمله یا بخش مورد نظر را نقل کنید. / Quote the sentence or section."
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: "متن درست چیست؟ / What should it say?"
+    validations:
+      required: false
+  - type: textarea
+    id: source
+    attributes:
+      label: "منبع / Source"
+      description: "منبعی که نشان می‌دهد متن فعلی نادرست است. پیوند آرشیوشده هم بدهید، اگر ممکن است. / A source showing the current text is wrong; an archived link helps."
+    validations:
+      required: false

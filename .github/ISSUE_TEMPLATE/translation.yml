@@ -1,0 +1,48 @@
+name: "🌍 ترجمه / Translation"
+description: "ترجمه‌ی یک سند یا اصلاح یک ترجمه. / Translate a document or fix a translation."
+title: "[ترجمه] "
+labels: ["ترجمه"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ترجمه به انگلیسی و به زبان‌های دیگر ایران (ترکی آذربایجانی، کردی، عربی، بلوچی، ترکمنی، گیلکی، مازندرانی، لری و…) خوش‌آمد است.
+        Translations into English and into Iran's other languages are welcome.
+  - type: input
+    id: document
+    attributes:
+      label: "کدام سند؟ / Which document?"
+      placeholder: "docs/manifesto.md"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: "به چه زبانی؟ / Into which language?"
+      options:
+        - "English"
+        - "ترکی آذربایجانی / Azerbaijani Turkish"
+        - "کردی (سورانی) / Kurdish (Sorani)"
+        - "کردی (کرمانجی) / Kurdish (Kurmanji)"
+        - "عربی / Arabic"
+        - "بلوچی / Balochi"
+        - "ترکمنی / Turkmen"
+        - "زبان دیگر / Other language"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: "نوع کار / Type of work"
+      options:
+        - "ترجمه‌ی تازه / New translation"
+        - "اصلاح ترجمه‌ی موجود / Fix an existing translation"
+        - "درخواست ترجمه (خودم ترجمه نمی‌کنم) / Request a translation"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "توضیحات / Details"
+    validations:
+      required: false

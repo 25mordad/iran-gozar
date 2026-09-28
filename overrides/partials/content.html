@@ -1,0 +1,72 @@
+{#-
+  Overrides Material's partials/content.html to add:
+  - a document status line (draft / reviewed, number of claims needing sources),
+  - right-to-left layout for Persian pages shown in the English site,
+  - an action bar: fix this page, critique it, share it, download PDF.
+-#}
+{% set en = config.theme.language == "en" %}
+{% set repo = "https://github.com/25mordad/iran-gozar" %}
+{% set meta = page.meta or {} %}
+
+{% if meta.status %}
+  {% set ns = meta.gozar_needs_source or 0 %}
+  <div class="gozar-status gozar-status--{{ meta.status }}">
+    <span class="gozar-status__label">
+      {%- if meta.status == "reviewed" -%}{{ "Reviewed by specialists" if en else "بازبینی‌شده توسط متخصصان" }}
+      {%- elif meta.status == "review" -%}{{ "Under specialist review" if en else "در حال بازبینی تخصصی" }}
+      {%- else -%}{{ "Initial draft — not yet reviewed by specialists" if en else "پیش‌نویس اولیه — هنوز بازبینی تخصصی نشده" }}{%- endif -%}
+    </span>
+    {% if ns > 0 %}
+      <a class="gozar-status__sources" href="{{ 'needs-sources/' | url if not en else 'en/needs-sources/' | url }}">
+        {%- if en -%}{{ ns }} claim{{ "s" if ns > 1 }} need{{ "" if ns > 1 else "s" }} a source{%- else -%}{{ ns | string | replace("0","۰") | replace("1","۱") | replace("2","۲") | replace("3","۳") | replace("4","۴") | replace("5","۵") | replace("6","۶") | replace("7","۷") | replace("8","۸") | replace("9","۹") }} ادعا منبع لازم دارد{%- endif -%}
+      </a>
+    {% endif %}
+  </div>
+{% endif %}
+
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+
+{% if meta.gozar_fallback and en %}<div class="gozar-fallback" dir="rtl" lang="fa">{% endif %}
+{% if "<h1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% if meta.gozar_fallback and en %}</div>{% endif %}
+
+{% if not meta.gozar_hide_actions %}
+  {% set doc = meta.gozar_src or (page.file.src_uri and "docs/" ~ page.file.src_uri) %}
+  <nav class="gozar-actions" aria-label="{{ 'Page actions' if en else 'کارهای این صفحه' }}">
+    {% if page.edit_url %}
+      <a class="md-button md-button--primary gozar-actions__edit" href="{{ page.edit_url }}" rel="edit">
+        {% include ".icons/material/pencil.svg" %}
+        <span>{{ "Fix this page" if en else "این صفحه را اصلاح کن" }}</span>
+      </a>
+    {% endif %}
+    <a class="md-button" href="{{ repo }}/issues/new?template=critique.yml&amp;document={{ (meta.gozar_source or doc) | urlencode }}">
+      {% include ".icons/material/comment-quote-outline.svg" %}
+      <span>{{ "Critique this page" if en else "این صفحه را نقد کن" }}</span>
+    </a>
+    <button class="md-button gozar-share" type="button" data-share data-title="{{ page.title | striptags | e }}">
+      {% include ".icons/material/share-variant.svg" %}
+      <span>{{ "Share" if en else "اشتراک‌گذاری" }}</span>
+    </button>
+    {% if meta.gozar_pdf %}
+      <a class="md-button" href="{{ meta.gozar_pdf | url }}" download>
+        {% include ".icons/material/file-pdf-box.svg" %}
+        <span>{{ "Download PDF" if en else "دانلود PDF" }}</span>
+      </a>
+    {% endif %}
+  </nav>
+  <div class="gozar-share-menu" hidden>
+    <a data-share-target="telegram" href="#" rel="noopener">Telegram</a>
+    <a data-share-target="whatsapp" href="#" rel="noopener">WhatsApp</a>
+    <a data-share-target="x" href="#" rel="noopener">X</a>
+    <a data-share-target="email" href="#">{{ "Email" if en else "ایمیل" }}</a>
+    <button type="button" data-share-copy>{{ "Copy link" if en else "کپی پیوند" }}</button>
+  </div>
+{% endif %}
+
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

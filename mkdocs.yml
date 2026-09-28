@@ -1,0 +1,197 @@
+# Site configuration for «گذار» (Gozar).
+# Build locally:  pip install -r requirements.txt && mkdocs serve
+# See docs/decisions.md for why each choice was made.
+
+site_name: گذار
+site_description: چارچوبی باز و قابل‌نقد برای گذار ایران به دموکراسی، بدون فروپاشی و بدون خشونت
+site_url: https://25mordad.github.io/iran-gozar/
+repo_url: https://github.com/25mordad/iran-gozar
+repo_name: 25mordad/iran-gozar
+edit_uri: edit/main/docs/
+copyright: >-
+  محتوا با مجوز <a href="https://github.com/25mordad/iran-gozar/blob/main/LICENSE">CC BY-SA 4.0</a> ·
+  کد با مجوز <a href="https://github.com/25mordad/iran-gozar/blob/main/LICENSE-CODE">MIT</a> ·
+  نویسنده‌ی پیش‌نویس اولیه: یک هوش مصنوعی
+
+theme:
+  name: material
+  language: fa
+  custom_dir: overrides
+  # No web fonts from Google or any other external service: Vazirmatn is bundled in docs/assets/fonts.
+  font: false
+  favicon: assets/images/favicon.svg
+  logo: assets/images/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: حالت روشن
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: حالت تاریک
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-auto
+        name: حالت خودکار
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+extra_css:
+  - assets/css/gozar.css
+extra_javascript:
+  - assets/js/gozar.js
+
+extra:
+  generator: false
+  # Document maturity (front matter "status"); icons are defined in gozar.css.
+  status:
+    draft: پیش‌نویس
+    review: در حال بازبینی
+    reviewed: بازبینی‌شده
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/25mordad/iran-gozar
+      name: مخزن گذار در گیت‌هاب
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      # Unicode-aware slugs, so Persian headings get readable anchors (same as GitHub).
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - abbr
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      # Split words on the Persian zero-width non-joiner as well, so «نهادها» and «نهاد‌ها» both match.
+      separator: '[\s\-‌]+'
+  - offline:
+      enabled: !ENV [GOZAR_OFFLINE, false]
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fa
+          default: true
+          name: فارسی
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Gozar
+          site_description: An open, critiqueable framework for Iran's transition to democracy, without state collapse and without violence
+          copyright: >-
+            Content licensed <a href="https://github.com/25mordad/iran-gozar/blob/main/LICENSE">CC BY-SA 4.0</a> ·
+            code licensed <a href="https://github.com/25mordad/iran-gozar/blob/main/LICENSE-CODE">MIT</a> ·
+            initial draft written by an AI
+          theme:
+            palette:
+              - media: "(prefers-color-scheme)"
+                toggle:
+                  icon: material/brightness-auto
+                  name: Switch to light mode
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/weather-night
+                  name: Switch to dark mode
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: custom
+                accent: custom
+                toggle:
+                  icon: material/brightness-auto
+                  name: Switch to system preference
+          extra:
+            status:
+              draft: Draft
+              review: Under review
+              reviewed: Reviewed
+            social:
+              - icon: fontawesome/brands/github
+                link: https://github.com/25mordad/iran-gozar
+                name: Gozar on GitHub
+          nav_translations:
+            خانه: Home
+            برنامه: The plan
+            نهادها: Institutions
+            امنیت و عدالت: Security and justice
+            حاکمیت و سیاست: Governance and politics
+            اقتصاد و انرژی: Economy and energy
+            جامعه و خدمات: Society and services
+            موضوعات: Topics
+            عدالت و حقوق: Justice and rights
+            اقتصاد: Economy
+            امنیت و سناریوها: Security and scenarios
+            تاریخ و تجربه‌ها: History and experience
+            جهان: The world
+            مشارکت: Take part
+            پروژه: The project
+
+hooks:
+  - hooks/root_docs.py
+  - hooks/gozar.py
+
+# Root files that are rendered into the site by hooks/root_docs.py.
+watch:
+  - CONTRIBUTING.md
+  - CONTRIBUTING.en.md
+  - GOVERNANCE.md
+  - GOVERNANCE.en.md
+  - CODE_OF_CONDUCT.md
+  - CODE_OF_CONDUCT.en.md
+  - SECURITY-FOR-CONTRIBUTORS.md
+  - SECURITY-FOR-CONTRIBUTORS.en.md
+  - STATUS.md
+  - hooks
+  - overrides
+
+validation:
+  omitted_files: warn
+  absolute_links: info
+  unrecognized_links: warn
+  anchors: warn
+
+not_in_nav: |
+  /needs-sources*.md
+  /project/status*.md

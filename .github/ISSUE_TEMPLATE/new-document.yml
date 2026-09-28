@@ -1,0 +1,54 @@
+name: "📄 پیشنهاد نهاد یا سند جدید / Propose a new institution or document"
+description: "به نظرتان نهاد یا موضوع مهمی جا افتاده است؟ / Is an important institution or topic missing?"
+title: "[سند جدید] "
+labels: ["سند-جدید"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        پیش از نوشتن، فهرست اسناد موجود را در سایت ببینید تا مطمئن شوید موضوع جای دیگری پوشش داده نشده است.
+        Before writing, check the existing documents on the website to make sure the topic isn't already covered.
+  - type: input
+    id: title
+    attributes:
+      label: "عنوان پیشنهادی / Proposed title"
+      placeholder: "مثلاً: کشاورزی و امنیت غذایی"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "نوع سند / Type"
+      options:
+        - "نهاد (docs/institutions) / Institution"
+        - "موضوع فرابخشی (docs/topics) / Cross-cutting topic"
+        - "سند دیگر / Other"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "چرا لازم است؟ / Why is it needed?"
+      description: "این نهاد یا موضوع در دوران گذار چه اهمیتی دارد؟ اگر به آن نپردازیم چه خطری هست؟ / Why does it matter in the transition? What is the risk of ignoring it?"
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: "طرح کلی / Outline"
+      description: "بخش‌های اصلی سند. قالب‌ها در پوشه‌ی templates هستند. / Main sections. Templates are in the templates folder."
+    validations:
+      required: false
+  - type: textarea
+    id: expertise
+    attributes:
+      label: "چه تخصصی لازم است؟ / What expertise is needed?"
+    validations:
+      required: false
+  - type: checkboxes
+    id: write
+    attributes:
+      label: "مشارکت / Contribution"
+      options:
+        - label: "حاضرم در نوشتن این سند کمک کنم. / I am willing to help write this document."
+          required: false
