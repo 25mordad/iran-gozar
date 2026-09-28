@@ -259,7 +259,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         page.meta["gozar_fallback"] = True
         if lang == "en":
             notice = (
-                '!!! info "Not yet translated"\n\n'
+                '!!! info gozar-untranslated "Not yet translated"\n\n'
                 "    This page is currently available only in Persian. "
                 "The original text is shown below. "
                 "[Help translate it](https://github.com/25mordad/iran-gozar/issues/new?template=translation.yml"

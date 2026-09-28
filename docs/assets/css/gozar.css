@@ -317,6 +317,19 @@
   text-align: start;
 }
 
+/* Material's full-bleed table margins assume the page direction; inside an RTL block on
+   an LTR page they push tables off-screen on phones. */
+.gozar-fallback .md-typeset__scrollwrap {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* The English "not yet translated" notice stays left-to-right. */
+.md-typeset .admonition.gozar-untranslated {
+  direction: ltr;
+  text-align: left;
+}
+
 /* --------------------------------------------------------------- home page */
 
 .gozar-hero {
@@ -735,4 +748,11 @@
     color: inherit;
     background: none;
   }
+}
+
+/* Never let anything widen the page on phones (e.g. Persian titles in the English navigation
+   drawer). "clip" does not create a scroll container, so sticky headers keep working. */
+html,
+body {
+  overflow-x: clip;
 }
