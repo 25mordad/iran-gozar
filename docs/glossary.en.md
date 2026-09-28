@@ -136,7 +136,7 @@ status: draft
 
 ### Day zero
 
-*روز صفر* — The moment when the current power structure can no longer, or will no longer, govern and an interim transitional authority takes responsibility. The plan's timelines are counted from this moment. See [Transition phases](transition-phases.md), [Regime change scenarios](topics/regime-change-scenarios.md).
+*روز صفر* — The moment when the current power structure can no longer, or will no longer, govern and an interim transitional authority takes responsibility. Most of the plan's timelines are counted from this moment; in some scenarios the clock starts differently. See [Transition phases](transition-phases.md), [Regime change scenarios](topics/regime-change-scenarios.md).
 
 ### Decentralization
 
