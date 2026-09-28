@@ -91,6 +91,11 @@
   white-space: nowrap;
 }
 
+/* Persian numbering for ordered lists on Persian pages. */
+[dir="rtl"] .md-typeset ol:not(.gozar-timeline) {
+  list-style-type: persian;
+}
+
 /* Keep code and commands left-to-right inside right-to-left pages. */
 .md-typeset code,
 .md-typeset pre {
