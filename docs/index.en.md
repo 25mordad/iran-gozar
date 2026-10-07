@@ -24,6 +24,7 @@ hide:
 
 [:material-timeline-clock-outline: The plan at a glance](at-a-glance.md){ .md-button .md-button--primary }
 [:material-bank-outline: What happens to institutions?](institutions/index.md){ .md-button .md-button--primary }
+[:material-account-voice: From text to action](action/index.md){ .md-button .md-button--primary }
 [:material-hand-heart-outline: How can I take part?](participate.md){ .md-button }
 
 </div>
@@ -39,6 +40,11 @@ hide:
 
     The main text of Gozar is written in Persian. Key documents are translated into English;
     other pages are shown in Persian with a notice. [Help translate](participate.md).
+
+!!! tip "A new phase: from text to action"
+
+    Documents alone bring no one into a conversation. From now on Gozar's priority is creating places where Iranians with different views can talk face to face.
+    [See what we are doing and how you can take part →](action/index.md)
 
 !!! question "What happens to me?"
 

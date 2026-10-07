@@ -7,7 +7,22 @@
 > نزدیک به دو هزار ادعا در متن‌ها هنوز منبع ندارند و علامت خورده‌اند.
 > مهم‌ترین کار بعدی، روشن کردن سایت، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
 
-**آخرین به‌روزرسانی:** مهر ۱۴۰۵ (اکتبر ۲۰۲۶)، افزودن «پذیرش قواعد بازی» و «پیمان قواعد بازی» پس از نسخه‌ی اولیه
+**آخرین به‌روزرسانی:** ۱۵ مهر ۱۴۰۵ (۷ اکتبر ۲۰۲۶)، تغییر اولویت پروژه «از متن به عمل»
+
+## مرحله‌ی کنونی: از متن به عمل
+
+سایت از ۶ مهر ۱۴۰۵ روی اینترنت است، اما تا ۱۵ مهر هیچ نقد یا پیشنهادی از بیرون پروژه نرسید. نقد ۱۴ («همه‌چیز روی کاغذ است و کسی اهمیت نمی‌دهد») پذیرفته شد و اولویت پروژه از نوشتن سند به **اقدام عملی** تغییر کرد ([ت-۰۴۶](docs/decisions.md)). همه‌چیز در [از متن به عمل](docs/action/index.md) آمده است:
+
+| اقدام | بسته | وضعیت |
+|---|---|---|
+| میز شش‌نفره برای بازنویسی پیمان قواعد بازی | [میز شش‌نفره](docs/action/pact-table.md) | بسته آماده است؛ هنوز دعوتی فرستاده نشده |
+| گفت‌وگوی پل‌زن با Pol.is و سی جمله‌ی آغازین | [گفت‌وگوی پل‌زن](docs/action/bridging-dialogue.md) | بسته آماده است؛ هنوز راه‌اندازی نشده |
+| گفت‌وگوهای دونفره‌ی «حرف تو را بگویم» | [گفت‌وگوی دونفره](docs/action/paired-conversations.md) | بسته آماده است؛ هنوز برگزار نشده |
+| رساندن به مردم: کانال تلگرام، ده پیام کوتاه، صدای شصت‌ثانیه‌ای | [رساندن به مردم](docs/action/outreach.md) | بسته آماده است؛ کانال هنوز ساخته نشده |
+| قواعد مشترک همه‌ی گفت‌وگوها | [قواعد گفت‌وگو](docs/action/conversation-rules.md) | آماده |
+| گزارش هفتگی آزمایش | [گزارش آزمایش](docs/action/log.md) | آزمایش هنوز آغاز نشده |
+
+**گلوگاه این مرحله انسانی است:** دعوت کردن آدم‌ها، ساختن کانال‌ها و میزبانی گفت‌وگوها کار انسان‌هاست و از هوش مصنوعی برنمی‌آید.
 
 ## دوره‌ی آغازین
 
@@ -75,7 +90,7 @@
 
 1. **[با من چه می‌شود؟](docs/what-happens-to-me.md)** (فا/en): هر شهروند، بر اساس شغل، باور یا وضعیتش، خودش را پیدا می‌کند و وعده‌ی مشخص برنامه به خودش را می‌خواند؛ از سرباز وظیفه و بسیجی تا بهائی، مهاجر افغانستانی و حامی نظام کنونی. **چرا:** ترس از پاسخ این پرسش از بزرگ‌ترین موانع گذار مسالمت‌آمیز است.
 2. **[کارنامه‌ی گذار](docs/scorecard.md)** (فا/en): معیارهای قابل‌سنجش برای سنجیدن هر مرجع گذار. **چرا:** وعده بدون ابزار سنجش اعتماد نمی‌سازد.
-3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** سیزده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
+3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** چهارده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
 4. **[دستور کار اولیه](docs/origin.md) و [دستورالعمل نگارش](templates/WRITING-BRIEF.md) منتشر شد.** **چرا:** هیچ دستور پنهانی نباید در کار باشد.
 5. **فهرست خودکار «ادعاهای منتظر منبع»،** شمارش آن بالای هر سند و در صفحه‌ی اول. **چرا:** نبود منبع را دیدنی و به دعوتی برای مشارکت تبدیل می‌کند.
 6. **وضعیت هر سند** («پیش‌نویس اولیه — هنوز بازبینی تخصصی نشده») بالای هر صفحه. **چرا:** صداقت درباره‌ی بلوغ متن.
@@ -101,10 +116,10 @@
 
 به ترتیب اولویت:
 
-1. **روشن کردن سایت** طبق بخش «راه‌اندازی سایت» در [README](README.md): ادغام در `main`، فعال کردن Pages با منبع GitHub Actions، اجرای «Sync labels».
-2. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (ایمیل امن یا پیام‌رسان رمزگذاری‌شده) و افزودنش به راهنمای مشارکت.
+1. **آغاز آزمایش چهارهفته‌ای [از متن به عمل](docs/action/index.md):** ساختن کانال تلگرام و یک راه نظر دادن بدون گیت‌هاب، پیدا کردن تسهیلگر، فرستادن نخستین دعوت‌ها برای میز شش‌نفره (نخستین دعوت برای منتقد نقد ۱۳ و ۱۴) و راه‌اندازی گفت‌وگوی پل‌زن. سایت از ۶ مهر ۱۴۰۵ روشن است.
+2. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (نگاه کنید به [رساندن به مردم](docs/action/outreach.md)) و افزودنش به راهنمای مشارکت.
 3. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال، پیش از تبلیغ پروژه در میان ساکنان ایران.
-4. **پیمان قواعد بازی:** فرستادن پیش‌نویس برای گروه‌های گوناگون، تشکیل گروهی چنداردویی برای بازنویسی آن، و تصمیم نگهدارندگان درباره‌ی هیئت بازبینی چنداردویی (ت-۰۴۵). در کنار آن، یک گفت‌وگوی پل‌زن و یک مجمع شهروندی آزمایشی برخط، با رعایت کامل ملاحظات امنیتی.
+4. **تصمیم نگهدارندگان درباره‌ی هیئت بازبینی چنداردویی (ت-۰۴۵)** و، پس از آزمایش چهارهفته‌ای، یک مجمع شهروندی آزمایشی برخط با رعایت کامل ملاحظات امنیتی.
 5. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
 6. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
 7. **نوشتن اسناد غایب:** برآورد هزینه‌ی گذار، تحلیل ژئوپلیتیک، روش انتخاب شورای موقت، کشاورزی و امنیت غذایی.
@@ -115,5 +130,7 @@
 ---
 
 ## In English (summary)
+
+**Current phase: from text to action.** The site has been online since 28 September 2026, but no critique or proposal came from outside the project by 7 October. Critique 14 ("it is all on paper and no one cares") was accepted and the project's priority moved from writing documents to practical action: a six-person table to rewrite the rules-of-the-game pact, an anonymous bridging dialogue with Pol.is, public one-on-one conversations, and outreach through Telegram, with a four-week experiment and clear success criteria (see [From text to action](docs/action/index.md)). The kits are ready; inviting people and hosting conversations is human work that has not started yet.
 
 The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 18 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: turn on the site (see README), set up a non-GitHub contact channel, have a digital-security expert review the safe-contribution guide, invite specialist reviewers, run a sourcing drive, write the missing cost-estimate and geopolitics documents, and translate. Since the first version, in response to the critique that a good design is not enough if rival groups will not accept its rules, the plan added the topic "Accepting the rules of the game" and a draft [rules-of-the-game pact](docs/rules-pact.md) that rival groups could sign publicly before day zero; no group has signed it yet, and it awaits a rewrite by people from different camps.

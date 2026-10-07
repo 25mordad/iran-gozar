@@ -53,7 +53,7 @@ We, the signers, holding different views about Iran's future, agree on these rul
 
 ## How this text changes
 
-- An AI wrote this draft, and that is its main weakness. The proposal is that a small group from different camps rewrites the final text, and that each clause becomes final only when none of them has a "fundamental objection" to it.
+- An AI wrote this draft, and that is its main weakness. A small group from different camps rewrites the final text, and each clause becomes final only when none of them has a "fundamental objection" to it. The method is described in the [six-person pact table](action/pact-table.md) (Persian).
 - Every version is numbered, and the changes in each version are published with reasons.
 - Any signer who wishes to leave the pact announces it publicly, with reasons.
 - Send criticism and proposed changes through the [critique form](https://github.com/25mordad/iran-gozar/issues/new?template=critique.yml&document=docs/rules-pact.md).

@@ -154,6 +154,7 @@ plugins:
           nav_translations:
             خانه: Home
             برنامه: The plan
+            اقدام: Action
             نهادها: Institutions
             امنیت و عدالت: Security and justice
             حاکمیت و سیاست: Governance and politics
@@ -176,8 +177,16 @@ nav:
       - transition-phases.md
       - what-happens-to-me.md
       - scorecard.md
-      - rules-pact.md
       - faq.md
+  - اقدام:
+      - action/index.md
+      - action/conversation-rules.md
+      - action/pact-table.md
+      - rules-pact.md
+      - action/bridging-dialogue.md
+      - action/paired-conversations.md
+      - action/outreach.md
+      - action/log.md
   - نهادها:
       - institutions/index.md
       - امنیت و عدالت:

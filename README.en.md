@@ -12,6 +12,8 @@
 > Everything is open, and anyone can read, criticize and correct it.
 > The final decision always belongs to the free vote of the people of Iran.
 
+**A new phase: [from text to action](docs/action/index.en.md).** Documents alone bring no one into a conversation. From now on the project's priority is creating places where Iranians with different views can talk face to face: a six-person pact table, a bridging dialogue, one-on-one conversations and taking the message to where people are.
+
 ## What is this?
 
 Gozar is a comprehensive draft framework for how Iran, in the event of regime change, can move to democracy **by preserving and reforming its institutions** and **without state collapse or violence**. It has three goals:
