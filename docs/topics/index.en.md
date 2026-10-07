@@ -53,6 +53,10 @@ status: draft
 
 **[Return and participation of the diaspora](diaspora.md).** Millions of Iranians live abroad, with knowledge, experience and capital that can help rebuild Iran [citation needed]. Every Iranian who wishes should be able to return without fear, vote and work, and no one should be punished for having emigrated. But those returning come to help, not to rule; power comes only through the people's vote. Clear, fair rules are needed for voting from abroad, recognizing foreign degrees, military service and confiscated property; the aim is for Iranians inside and outside to become one nation again, not two camps.
 
+## Agreeing on the rules of the game
+
+**[Accepting the rules of the game](rules-of-the-game.md).** A good plan is useful only if rival political groups accept its rules, and acceptance does not come from a text being "optimal". Groups accept rules they helped make, and rules under which losing does not mean being destroyed — in Iran's modern history, losers have often lost everything, so the urge to eliminate rivals is learned, not irrational. The proposal: agree on a few short rules now, before day zero, while no one knows who will be stronger; lower the cost of losing; replace a "neutral referee" no one believes in with balanced arbitration in which every side has a share; use bridging dialogues and citizens' assemblies chosen by lot to reveal hidden common ground; and keep AI a tool for listening, never the referee. The first practical step is the draft [rules-of-the-game pact](../rules-pact.md).
+
 ## Critiquing the plan itself
 
 **[The strongest critiques of this plan](critiques.md).** The most serious objections that can be raised against the whole plan, which ones have been answered, and which remain open.

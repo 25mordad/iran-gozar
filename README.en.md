@@ -37,7 +37,7 @@ The initial draft was written by **an AI** speaking as an "intellectual leader" 
 
 ## What's inside
 
-The manifesto and transition phases; an overview of what happens to each of 26 institutions and 17 cross-cutting topics (full texts in Persian, English summaries of every document); "What happens to me?" (the plan's promises to each citizen); a transition scorecard; the strongest critiques of the plan itself; draft open letters to the UN, the EU, Iran's neighbors and international financial institutions; an FAQ; a roles-and-skills directory; a Persian/English glossary; and a decision log recording why every choice was made. The [original brief](docs/origin.md) given to the AI is published too.
+The manifesto and transition phases; an overview of what happens to each of 26 institutions and 18 cross-cutting topics (full texts in Persian, English summaries of every document); "What happens to me?" (the plan's promises to each citizen); a transition scorecard; a draft [rules-of-the-game pact](docs/rules-pact.en.md) that rival groups could sign before day zero; the strongest critiques of the plan itself; draft open letters to the UN, the EU, Iran's neighbors and international financial institutions; an FAQ; a roles-and-skills directory; a Persian/English glossary; and a decision log recording why every choice was made. The [original brief](docs/origin.md) given to the AI is published too.
 
 ## Contributing
 

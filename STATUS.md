@@ -7,7 +7,7 @@
 > نزدیک به دو هزار ادعا در متن‌ها هنوز منبع ندارند و علامت خورده‌اند.
 > مهم‌ترین کار بعدی، روشن کردن سایت، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
 
-**آخرین به‌روزرسانی:** مهر ۱۴۰۵ (سپتامبر ۲۰۲۶)، پایان ساخت نسخه‌ی اولیه
+**آخرین به‌روزرسانی:** مهر ۱۴۰۵ (اکتبر ۲۰۲۶)، افزودن «پذیرش قواعد بازی» و «پیمان قواعد بازی» پس از نسخه‌ی اولیه
 
 ## دوره‌ی آغازین
 
@@ -23,7 +23,7 @@
 | ۲ | سایت دوزبانه با MkDocs Material، انتشار خودکار روی GitHub Pages | ✅ کامل | `mkdocs.yml`، `hooks/`، `overrides/` |
 | ۲ | صفحه‌ی اول، «برنامه در یک نگاه»، «چطور مشارکت کنم؟» (فا/en) | ✅ کامل | `docs/` |
 | ۳ | ۲۶ سند نهاد (۲۰ نهاد فهرست اولیه + ۶ نهاد افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/institutions/` |
-| ۴ | ۱۷ سند موضوعی (۱۱ موضوع فهرست اولیه + ۶ موضوع افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/topics/` |
+| ۴ | ۱۸ سند موضوعی (۱۱ موضوع فهرست اولیه + ۷ موضوع افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/topics/` |
 | ۵ | ۴ نامه‌ی سرگشاده و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/international/` |
 | ۵ | «سؤال‌های شما» (فا/en) | ✅ کامل | `docs/faq*.md` |
 | ۵ | نیروی انسانی لازم و واژه‌نامه (فا/en) | ✅ کامل | `docs/people-needed*.md`، `docs/glossary*.md` |
@@ -45,6 +45,18 @@
 | **مشارکت امن** | منطقه‌ی زمانی git، متادیتا، Tor و پل‌ها، رفتار و سبک نوشتن | **باید حتماً متخصص امنیت دیجیتال آن را بازبینی کند** پیش از آنکه کسی در ایران به آن تکیه کند |
 | **سایت** | راست‌به‌چپ، دوزبانه، حالت تاریک، جستجو، بدون هیچ منبع خارجی، بارگذاری سبک | در CI واقعی گیت‌هاب هنوز اجرا نشده است (نگاه کنید به «آزمون‌ها») |
 
+## پس از نسخه‌ی اولیه
+
+| بخش | وضعیت | کجا |
+|---|---|---|
+| نقد ۱۳: «طرح خوب کافی نیست؛ رقیبان قواعد بازی را نمی‌پذیرند» | ✅ ثبت و پاسخ داده شد | `docs/topics/critiques.md` |
+| سند موضوعی «پذیرش قواعد بازی»: پیمان پیش از روز صفر، پایین آوردن هزینه‌ی باختن، داوری متوازن، گفت‌وگوی پل‌زن، مجمع شهروندی قرعه‌ای، نقش هوش مصنوعی | ✅ پیش‌نویس | `docs/topics/rules-of-the-game.md` |
+| پیش‌نویس «پیمان قواعد بازی» (فا/en) | ✅ نسخه‌ی ۰٫۱؛ هنوز هیچ گروهی امضا نکرده | `docs/rules-pact*.md` |
+| پیوند در فازهای گذار، برنامه در یک نگاه، قانون اساسی، سؤال‌های شما، واژه‌نامه و نیروی انسانی لازم (فا/en) | ✅ کامل | `docs/` |
+| تصمیم‌های ت-۰۴۲ تا ت-۰۴۵ | ✅ ثبت شد؛ ت-۰۴۵ پیشنهادی است | `docs/decisions.md` |
+
+دلیل این تغییر جهت، از «متن» به «فرایند و مالکیت»، در [ت-۰۴۲](docs/decisions.md) آمده است.
+
 ## کجاها ضعیف است یا منبع لازم دارد
 
 1. **حدود ۱۹۰۰ ادعای منتظر منبع.** فهرست کامل و خودکار در [ادعاهای منتظر منبع](docs/needs-sources.md). بیشترینشان: آمار (تورم، کارکنان نهادها، مصرف آب)، تاریخ دقیق تأسیس نهادها، شماره‌ی مواد قوانین عادی، جزئیات رویدادهای کشورهای دیگر.
@@ -55,6 +67,7 @@
 6. **روش انتخاب شورای موقت گذار.**
 7. **صدای مناطق و اقوام:** اسناد از نگاه فارسی‌زبان نوشته شده‌اند و باید به دست کسانی از همان مناطق بازبینی و به زبان‌های دیگر ایران ترجمه شوند.
 8. **ترجمه‌ی انگلیسی:** اسناد نهادها و موضوعات فقط خلاصه‌ی انگلیسی دارند.
+9. **مالکیت متن:** همه‌ی اسناد، از جمله پیمان قواعد بازی، هنوز نوشته‌ی هوش مصنوعی‌اند و هیچ گروهی از اردوهای مختلف آن‌ها را بازنویسی یا تأیید نکرده است (نقد ۲ و ۱۳).
 
 ## ایده‌های خلاقانه‌ای که اجرا شد
 
@@ -62,7 +75,7 @@
 
 1. **[با من چه می‌شود؟](docs/what-happens-to-me.md)** (فا/en): هر شهروند، بر اساس شغل، باور یا وضعیتش، خودش را پیدا می‌کند و وعده‌ی مشخص برنامه به خودش را می‌خواند؛ از سرباز وظیفه و بسیجی تا بهائی، مهاجر افغانستانی و حامی نظام کنونی. **چرا:** ترس از پاسخ این پرسش از بزرگ‌ترین موانع گذار مسالمت‌آمیز است.
 2. **[کارنامه‌ی گذار](docs/scorecard.md)** (فا/en): معیارهای قابل‌سنجش برای سنجیدن هر مرجع گذار. **چرا:** وعده بدون ابزار سنجش اعتماد نمی‌سازد.
-3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** دوازده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
+3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** سیزده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
 4. **[دستور کار اولیه](docs/origin.md) و [دستورالعمل نگارش](templates/WRITING-BRIEF.md) منتشر شد.** **چرا:** هیچ دستور پنهانی نباید در کار باشد.
 5. **فهرست خودکار «ادعاهای منتظر منبع»،** شمارش آن بالای هر سند و در صفحه‌ی اول. **چرا:** نبود منبع را دیدنی و به دعوتی برای مشارکت تبدیل می‌کند.
 6. **وضعیت هر سند** («پیش‌نویس اولیه — هنوز بازبینی تخصصی نشده») بالای هر صفحه. **چرا:** صداقت درباره‌ی بلوغ متن.
@@ -91,15 +104,16 @@
 1. **روشن کردن سایت** طبق بخش «راه‌اندازی سایت» در [README](README.md): ادغام در `main`، فعال کردن Pages با منبع GitHub Actions، اجرای «Sync labels».
 2. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (ایمیل امن یا پیام‌رسان رمزگذاری‌شده) و افزودنش به راهنمای مشارکت.
 3. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال، پیش از تبلیغ پروژه در میان ساکنان ایران.
-4. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
-5. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
-6. **نوشتن اسناد غایب:** برآورد هزینه‌ی گذار، تحلیل ژئوپلیتیک، روش انتخاب شورای موقت، کشاورزی و امنیت غذایی.
-7. **ترجمه** به انگلیسی (اسناد کامل) و به زبان‌های دیگر ایران (دست‌کم خلاصه‌های ساده).
-8. **انتقال مخزن به یک حساب سازمانی** با چند مالک، به‌محض وجود سه نگهدارنده‌ی فعال.
-9. **نسخه‌ی صوتی خلاصه‌ها** و نمایش تاریخ آخرین تغییر هر صفحه.
+4. **پیمان قواعد بازی:** فرستادن پیش‌نویس برای گروه‌های گوناگون، تشکیل گروهی چنداردویی برای بازنویسی آن، و تصمیم نگهدارندگان درباره‌ی هیئت بازبینی چنداردویی (ت-۰۴۵). در کنار آن، یک گفت‌وگوی پل‌زن و یک مجمع شهروندی آزمایشی برخط، با رعایت کامل ملاحظات امنیتی.
+5. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
+6. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
+7. **نوشتن اسناد غایب:** برآورد هزینه‌ی گذار، تحلیل ژئوپلیتیک، روش انتخاب شورای موقت، کشاورزی و امنیت غذایی.
+8. **ترجمه** به انگلیسی (اسناد کامل) و به زبان‌های دیگر ایران (دست‌کم خلاصه‌های ساده).
+9. **انتقال مخزن به یک حساب سازمانی** با چند مالک، به‌محض وجود سه نگهدارنده‌ی فعال.
+10. **نسخه‌ی صوتی خلاصه‌ها** و نمایش تاریخ آخرین تغییر هر صفحه.
 
 ---
 
 ## In English (summary)
 
-The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 17 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: turn on the site (see README), set up a non-GitHub contact channel, have a digital-security expert review the safe-contribution guide, invite specialist reviewers, run a sourcing drive, write the missing cost-estimate and geopolitics documents, and translate.
+The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 18 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: turn on the site (see README), set up a non-GitHub contact channel, have a digital-security expert review the safe-contribution guide, invite specialist reviewers, run a sourcing drive, write the missing cost-estimate and geopolitics documents, and translate. Since the first version, in response to the critique that a good design is not enough if rival groups will not accept its rules, the plan added the topic "Accepting the rules of the game" and a draft [rules-of-the-game pact](docs/rules-pact.md) that rival groups could sign publicly before day zero; no group has signed it yet, and it awaits a rewrite by people from different camps.

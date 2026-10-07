@@ -176,6 +176,7 @@ nav:
       - transition-phases.md
       - what-happens-to-me.md
       - scorecard.md
+      - rules-pact.md
       - faq.md
   - نهادها:
       - institutions/index.md
@@ -231,6 +232,7 @@ nav:
           - topics/lessons-from-transitions.md
           - topics/iran-history-lessons.md
           - topics/diaspora.md
+      - topics/rules-of-the-game.md
       - topics/critiques.md
   - جهان:
       - international/index.md

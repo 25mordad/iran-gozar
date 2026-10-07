@@ -121,6 +121,10 @@ Both criticisms are serious. Haste is dangerous (the 1979 referendum two months 
 
 No text guarantees anything by itself. The real guarantee is **people who know these commitments and demand them**. That is why the plan writes its commitments in measurable form ("no death sentence is carried out", "the interim council lasts at most 12 months"), allows the time limits to be changed only by elected bodies, and asks interim council members not to run in the first elections so they have no incentive to stay.
 
+### What if political groups reject these rules and think only of eliminating their rivals?
+
+This is the most serious question about any plan like this one, and it is recorded among the plan's [strongest critiques](topics/critiques.md) (Persian). The short answer has three parts. **Rules are accepted when losing under them does not mean being destroyed:** in Iran's history losers have often lost everything, so the plan tries to lower the cost of losing — losers keep their rights, the next election is guaranteed and no one is eliminated for their beliefs. **The best time to agree is now,** while no group knows who will be stronger tomorrow; that is why a short draft [rules-of-the-game pact](rules-pact.md) has been published — ten rules about how to compete, not about who should win. **No one needs to trust a "neutral" referee, including the AI author:** the referees of the transition should be chosen by a method in which every side has a share, and their work should be visible to all and open to challenge. The full argument is in [Accepting the rules of the game](topics/rules-of-the-game.md) (Persian).
+
 ### Why are most documents not in English?
 
 Because the primary audience is the people of Iran. Key documents — the manifesto, the transition phases, this page, the open letters and summaries of all institution documents — are in English. Translating the rest is one of the best ways to contribute, as is translation into Azerbaijani Turkish, Kurdish, Arabic, Balochi and Iran's other languages.

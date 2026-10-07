@@ -40,7 +40,7 @@ hide:
 - Identifying the roles and skills each institution needs
 - A clear message to institutions' employees: your place is secure
 - Professional documentation of human rights violations
-- Agreement among political groups on the minimum
+- Agreement among political groups on the minimum ([rules-of-the-game pact](rules-pact.md))
 
 <p class="gozar-phase__more" markdown>[More details →](transition-phases.md#phase-0-preparation-from-today-to-day-zero)</p>
 </div>
