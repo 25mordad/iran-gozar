@@ -18,6 +18,10 @@ description: A simple, visual guide so that anyone can help improve this plan
     read the [guide to safe and pseudonymous contribution](project/security.md).
     Reading and sharing offline is the lowest-risk way to take part.
 
+## New: take part in a real conversation
+
+The most important contribution at this stage is not reading and critiquing documents, but taking part in conversations with people who do not share your views. You can nominate someone for the [six-person pact table](action/pact-table.md), join the [bridging dialogue](action/bridging-dialogue.md), volunteer for a public one-on-one conversation if you live outside Iran ([details](action/paired-conversations.md)), or share the short messages in [reaching people](action/outreach.md). Everything is explained in [From text to action](action/index.md).
+
 ## Three ways, depending on your time
 
 <div class="gozar-paths" markdown>

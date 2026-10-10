@@ -5,9 +5,24 @@
 > نسخه‌ی اولیه‌ی کامل برنامه‌ی گذار آماده است: بیش از پنجاه سند فارسی، اسناد کلیدی به انگلیسی، و یک سایت دوزبانه که روی گوشی و اینترنت کند کار می‌کند.
 > همه‌ی اسناد پیش‌نویس هوش مصنوعی‌اند و هنوز هیچ متخصصی آن‌ها را بازبینی نکرده است.
 > نزدیک به دو هزار ادعا در متن‌ها هنوز منبع ندارند و علامت خورده‌اند.
-> مهم‌ترین کار بعدی، روشن کردن سایت، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
+> سایت از ۶ مهر ۱۴۰۵ روی اینترنت است و مهم‌ترین کار بعدی، آغاز آزمایش «از متن به عمل»، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
 
-**آخرین به‌روزرسانی:** مهر ۱۴۰۵ (سپتامبر ۲۰۲۶)، پایان ساخت نسخه‌ی اولیه
+**آخرین به‌روزرسانی:** ۱۵ مهر ۱۴۰۵ (۷ اکتبر ۲۰۲۶)، تغییر اولویت پروژه «از متن به عمل»
+
+## مرحله‌ی کنونی: از متن به عمل
+
+سایت از ۶ مهر ۱۴۰۵ روی اینترنت است، اما تا ۱۵ مهر هیچ نقد یا پیشنهادی از بیرون پروژه نرسید. نقد ۱۴ («همه‌چیز روی کاغذ است و کسی اهمیت نمی‌دهد») پذیرفته شد و اولویت پروژه از نوشتن سند به **اقدام عملی** تغییر کرد ([ت-۰۴۶](docs/decisions.md)). همه‌چیز در [از متن به عمل](docs/action/index.md) آمده است:
+
+| اقدام | بسته | وضعیت |
+|---|---|---|
+| میز شش‌نفره برای بازنویسی پیمان قواعد بازی | [میز شش‌نفره](docs/action/pact-table.md) | بسته آماده است؛ هنوز دعوتی فرستاده نشده |
+| گفت‌وگوی پل‌زن با Pol.is و سی جمله‌ی آغازین | [گفت‌وگوی پل‌زن](docs/action/bridging-dialogue.md) | بسته آماده است؛ هنوز راه‌اندازی نشده |
+| گفت‌وگوهای دونفره‌ی «حرف تو را بگویم» | [گفت‌وگوی دونفره](docs/action/paired-conversations.md) | بسته آماده است؛ هنوز برگزار نشده |
+| رساندن به مردم: کانال تلگرام، ده پیام کوتاه، صدای شصت‌ثانیه‌ای | [رساندن به مردم](docs/action/outreach.md) | بسته آماده است؛ کانال هنوز ساخته نشده |
+| قواعد مشترک همه‌ی گفت‌وگوها | [قواعد گفت‌وگو](docs/action/conversation-rules.md) | آماده |
+| گزارش هفتگی آزمایش | [گزارش آزمایش](docs/action/log.md) | آزمایش هنوز آغاز نشده |
+
+**گلوگاه این مرحله انسانی است:** دعوت کردن آدم‌ها، ساختن کانال‌ها و میزبانی گفت‌وگوها کار انسان‌هاست و از هوش مصنوعی برنمی‌آید.
 
 ## دوره‌ی آغازین
 
@@ -23,7 +38,7 @@
 | ۲ | سایت دوزبانه با MkDocs Material، انتشار خودکار روی GitHub Pages | ✅ کامل | `mkdocs.yml`، `hooks/`، `overrides/` |
 | ۲ | صفحه‌ی اول، «برنامه در یک نگاه»، «چطور مشارکت کنم؟» (فا/en) | ✅ کامل | `docs/` |
 | ۳ | ۲۶ سند نهاد (۲۰ نهاد فهرست اولیه + ۶ نهاد افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/institutions/` |
-| ۴ | ۱۷ سند موضوعی (۱۱ موضوع فهرست اولیه + ۶ موضوع افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/topics/` |
+| ۴ | ۱۸ سند موضوعی (۱۱ موضوع فهرست اولیه + ۷ موضوع افزوده) و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/topics/` |
 | ۵ | ۴ نامه‌ی سرگشاده و صفحه‌ی معرفی (فا/en) | ✅ کامل | `docs/international/` |
 | ۵ | «سؤال‌های شما» (فا/en) | ✅ کامل | `docs/faq*.md` |
 | ۵ | نیروی انسانی لازم و واژه‌نامه (فا/en) | ✅ کامل | `docs/people-needed*.md`، `docs/glossary*.md` |
@@ -43,7 +58,19 @@
 | **نامه‌ها و «سؤال‌های شما»** | لحن سنجیده، درخواست‌ها و تعهدات مشخص | هنوز هیچ انسانی آن‌ها را امضا یا تأیید نکرده است |
 | **راهنماهای مشارکت** | راه ساده‌ی مرورگر با توضیح هر دکمه، راه حرفه‌ای با دستورهای دقیق، نمونه‌ی PR خوب و بد | کانال تماس بدون گیت‌هاب هنوز راه‌اندازی نشده است |
 | **مشارکت امن** | منطقه‌ی زمانی git، متادیتا، Tor و پل‌ها، رفتار و سبک نوشتن | **باید حتماً متخصص امنیت دیجیتال آن را بازبینی کند** پیش از آنکه کسی در ایران به آن تکیه کند |
-| **سایت** | راست‌به‌چپ، دوزبانه، حالت تاریک، جستجو، بدون هیچ منبع خارجی، بارگذاری سبک | در CI واقعی گیت‌هاب هنوز اجرا نشده است (نگاه کنید به «آزمون‌ها») |
+| **سایت** | راست‌به‌چپ، دوزبانه، حالت تاریک، جستجو، بدون هیچ منبع خارجی، بارگذاری سبک | از ۶ مهر ۱۴۰۵ روی GitHub Pages منتشر شده است، اما تا ۱۵ مهر هیچ مشارکتی از بیرون پروژه از راه آن نرسید |
+
+## پس از نسخه‌ی اولیه
+
+| بخش | وضعیت | کجا |
+|---|---|---|
+| نقد ۱۳: «طرح خوب کافی نیست؛ رقیبان قواعد بازی را نمی‌پذیرند» | ✅ ثبت و پاسخ داده شد | `docs/topics/critiques.md` |
+| سند موضوعی «پذیرش قواعد بازی»: پیمان پیش از روز صفر، پایین آوردن هزینه‌ی باختن، داوری متوازن، گفت‌وگوی پل‌زن، مجمع شهروندی قرعه‌ای، نقش هوش مصنوعی | ✅ پیش‌نویس | `docs/topics/rules-of-the-game.md` |
+| پیش‌نویس «پیمان قواعد بازی» (فا/en) | ✅ نسخه‌ی ۰٫۱؛ هنوز هیچ گروهی امضا نکرده | `docs/rules-pact*.md` |
+| پیوند در فازهای گذار، برنامه در یک نگاه، قانون اساسی، سؤال‌های شما، واژه‌نامه و نیروی انسانی لازم (فا/en) | ✅ کامل | `docs/` |
+| تصمیم‌های ت-۰۴۲ تا ت-۰۴۵ | ✅ ثبت شد؛ ت-۰۴۵ پیشنهادی است | `docs/decisions.md` |
+
+دلیل این تغییر جهت، از «متن» به «فرایند و مالکیت»، در [ت-۰۴۲](docs/decisions.md) آمده است.
 
 ## کجاها ضعیف است یا منبع لازم دارد
 
@@ -55,6 +82,7 @@
 6. **روش انتخاب شورای موقت گذار.**
 7. **صدای مناطق و اقوام:** اسناد از نگاه فارسی‌زبان نوشته شده‌اند و باید به دست کسانی از همان مناطق بازبینی و به زبان‌های دیگر ایران ترجمه شوند.
 8. **ترجمه‌ی انگلیسی:** اسناد نهادها و موضوعات فقط خلاصه‌ی انگلیسی دارند.
+9. **مالکیت متن:** همه‌ی اسناد، از جمله پیمان قواعد بازی، هنوز نوشته‌ی هوش مصنوعی‌اند و هیچ گروهی از اردوهای مختلف آن‌ها را بازنویسی یا تأیید نکرده است (نقد ۲ و ۱۳).
 
 ## ایده‌های خلاقانه‌ای که اجرا شد
 
@@ -62,7 +90,7 @@
 
 1. **[با من چه می‌شود؟](docs/what-happens-to-me.md)** (فا/en): هر شهروند، بر اساس شغل، باور یا وضعیتش، خودش را پیدا می‌کند و وعده‌ی مشخص برنامه به خودش را می‌خواند؛ از سرباز وظیفه و بسیجی تا بهائی، مهاجر افغانستانی و حامی نظام کنونی. **چرا:** ترس از پاسخ این پرسش از بزرگ‌ترین موانع گذار مسالمت‌آمیز است.
 2. **[کارنامه‌ی گذار](docs/scorecard.md)** (فا/en): معیارهای قابل‌سنجش برای سنجیدن هر مرجع گذار. **چرا:** وعده بدون ابزار سنجش اعتماد نمی‌سازد.
-3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** دوازده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
+3. **[قوی‌ترین نقدها به این برنامه](docs/topics/critiques.md):** چهارده ایراد جدی با قوی‌ترین صورت‌بندی، و آنچه هنوز حل نشده. **چرا:** برنامه‌ای که فقط از خودش دفاع کند قابل‌اعتماد نیست.
 4. **[دستور کار اولیه](docs/origin.md) و [دستورالعمل نگارش](templates/WRITING-BRIEF.md) منتشر شد.** **چرا:** هیچ دستور پنهانی نباید در کار باشد.
 5. **فهرست خودکار «ادعاهای منتظر منبع»،** شمارش آن بالای هر سند و در صفحه‌ی اول. **چرا:** نبود منبع را دیدنی و به دعوتی برای مشارکت تبدیل می‌کند.
 6. **وضعیت هر سند** («پیش‌نویس اولیه — هنوز بازبینی تخصصی نشده») بالای هر صفحه. **چرا:** صداقت درباره‌ی بلوغ متن.
@@ -82,24 +110,27 @@
 - ساخت PDF با Chromium: ۶۸ فایل بدون خطا؛ PDF کامل فارسی حدود ۶۰۰ صفحه (حدود ۹ مگابایت) و PDF کامل انگلیسی حدود ۵۰ صفحه، با متن قابل‌انتخاب و جستجو.
 - نسخه‌ی آفلاین از روی دیسک (`file://`) باز می‌شود.
 
-**هنوز آزموده نشده:** اجرای واقعی گردش‌کارها در GitHub Actions، چون شاخه‌ی `main` و GitHub Pages هنوز راه‌اندازی نشده‌اند.
+**در GitHub Actions:** سایت از ۶ مهر ۱۴۰۵ با گردش‌کار انتشار روی GitHub Pages منتشر می‌شود و بررسی‌های «Documents and site build» و «External links» روی هر PR اجرا می‌شوند.
 
 ## قدم‌های بعدی پیشنهادی
 
 به ترتیب اولویت:
 
-1. **روشن کردن سایت** طبق بخش «راه‌اندازی سایت» در [README](README.md): ادغام در `main`، فعال کردن Pages با منبع GitHub Actions، اجرای «Sync labels».
-2. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (ایمیل امن یا پیام‌رسان رمزگذاری‌شده) و افزودنش به راهنمای مشارکت.
-3. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال، پیش از تبلیغ پروژه در میان ساکنان ایران.
-4. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
-5. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
-6. **نوشتن اسناد غایب:** برآورد هزینه‌ی گذار، تحلیل ژئوپلیتیک، روش انتخاب شورای موقت، کشاورزی و امنیت غذایی.
-7. **ترجمه** به انگلیسی (اسناد کامل) و به زبان‌های دیگر ایران (دست‌کم خلاصه‌های ساده).
-8. **انتقال مخزن به یک حساب سازمانی** با چند مالک، به‌محض وجود سه نگهدارنده‌ی فعال.
-9. **نسخه‌ی صوتی خلاصه‌ها** و نمایش تاریخ آخرین تغییر هر صفحه.
+1. **آغاز آزمایش چهارهفته‌ای [از متن به عمل](docs/action/index.md)، در مرحله‌ی اول فقط در میان ایرانیان بیرون از ایران:** ساختن کانال تلگرام و یک راه نظر دادن بدون گیت‌هاب، پیدا کردن تسهیلگر، فرستادن نخستین دعوت‌ها برای میز شش‌نفره (نخستین دعوت برای منتقد نقد ۱۳ و ۱۴) و راه‌اندازی گفت‌وگوی پل‌زن. سایت از ۶ مهر ۱۴۰۵ روشن است.
+2. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال. هیچ دعوت، پیوند یا پیامی، از جمله در آزمایش چهارهفته‌ای، پیش از تأیید این متخصص به ساکنان ایران نمی‌رسد (بخش «ایمنی» در [از متن به عمل](docs/action/index.md)).
+3. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (نگاه کنید به [رساندن به مردم](docs/action/outreach.md)) و افزودنش به راهنمای مشارکت.
+4. **تصمیم نگهدارندگان درباره‌ی هیئت بازبینی چنداردویی (ت-۰۴۵)** و، پس از آزمایش چهارهفته‌ای، یک مجمع شهروندی آزمایشی برخط با رعایت کامل ملاحظات امنیتی.
+5. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
+6. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
+7. **نوشتن اسناد غایب:** برآورد هزینه‌ی گذار، تحلیل ژئوپلیتیک، روش انتخاب شورای موقت، کشاورزی و امنیت غذایی.
+8. **ترجمه** به انگلیسی (اسناد کامل) و به زبان‌های دیگر ایران (دست‌کم خلاصه‌های ساده).
+9. **انتقال مخزن به یک حساب سازمانی** با چند مالک، به‌محض وجود سه نگهدارنده‌ی فعال.
+10. **نسخه‌ی صوتی خلاصه‌ها** و نمایش تاریخ آخرین تغییر هر صفحه.
 
 ---
 
 ## In English (summary)
 
-The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 17 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: turn on the site (see README), set up a non-GitHub contact channel, have a digital-security expert review the safe-contribution guide, invite specialist reviewers, run a sourcing drive, write the missing cost-estimate and geopolitics documents, and translate.
+**Current phase: from text to action.** The site has been online since 28 September 2026, but no critique or proposal came from outside the project by 7 October. Critique 14 ("it is all on paper and no one cares") was accepted and the project's priority moved from writing documents to practical action: a six-person table to rewrite the rules-of-the-game pact, an anonymous bridging dialogue with Pol.is, public one-on-one conversations, and outreach through Telegram, with a four-week experiment and clear success criteria (see [From text to action](docs/action/index.en.md)). The kits are ready; inviting people and hosting conversations is human work that has not started yet.
+
+The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 18 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: start the four-week experiment, at first only among Iranians outside Iran; have a digital-security expert review the safe-contribution guide, since no outreach to people living in Iran happens before that sign-off; set up a non-GitHub contact channel; invite specialist reviewers; run a sourcing drive; write the missing cost-estimate and geopolitics documents; and translate. Since the first version, in response to the critique that a good design is not enough if rival groups will not accept its rules, the plan added the topic "Accepting the rules of the game" and a draft [rules-of-the-game pact](docs/rules-pact.en.md) that rival groups could sign publicly before day zero; no group has signed it yet, and it awaits a rewrite by people from different camps.

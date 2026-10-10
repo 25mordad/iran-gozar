@@ -25,6 +25,7 @@ gozar_hide_actions: false
 
 [:material-timeline-clock-outline: برنامه در یک نگاه](at-a-glance.md){ .md-button .md-button--primary }
 [:material-bank-outline: نهادها چه می‌شوند؟](institutions/index.md){ .md-button .md-button--primary }
+[:material-account-voice: از متن به عمل](action/index.md){ .md-button .md-button--primary }
 [:material-hand-heart-outline: چطور مشارکت کنم؟](participate.md){ .md-button }
 
 </div>
@@ -37,6 +38,11 @@ gozar_hide_actions: false
 </div>
 
 </div>
+
+!!! tip "مرحله‌ی تازه: از متن به عمل"
+
+    سند به‌تنهایی کسی را به گفت‌وگو نمی‌آورد. از این پس اولویت «گذار» ساختن جاهایی است که ایرانیان با دیدگاه‌های مختلف بتوانند رودررو با هم حرف بزنند.
+    [ببینید چه می‌کنیم و چطور می‌توانید شرکت کنید ←](action/index.md)
 
 !!! question "با من چه می‌شود؟"
 

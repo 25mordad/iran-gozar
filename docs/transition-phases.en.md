@@ -78,7 +78,7 @@ Most transition failures are decided in this phase: countries without a plan for
 - **Drafts of decrees and texts.** The texts of first-day messages, a draft transitional charter, the list of laws to be suspended, and instructions for keeping offices running.
 - **Building trust with institutions' employees.** A clear and repeated message to civil servants, teachers, police, army personnel and even ordinary members of military institutions: your place is secure, responsibility is individual, and no one will be punished for their job.
 - **Documentation.** Safe and professional recording of evidence of human rights violations by independent bodies, in a form usable in court later.
-- **Dialogue between groups.** Agreement among political forces on the minimum: red lines, the timeline and the interim decision-making mechanism. Without this agreement, day zero becomes a violent competition for power.
+- **Dialogue between groups.** Agreement among political forces on the minimum: red lines, the timeline and the interim decision-making mechanism. Without this agreement, day zero becomes a violent competition for power. The best time for this agreement is now, while no group yet knows who will be stronger tomorrow; a draft to start from is the [rules-of-the-game pact](rules-pact.md), and the reasoning is in [Accepting the rules of the game](topics/rules-of-the-game.md) (Persian).
 - **Preparing Iranians abroad.** A register of expert volunteers, readiness for remote technical help and a return program (see [diaspora](topics/diaspora.md), Persian).
 
 **Readiness criterion:** for each vital task of the first 72 hours, there is a ready text, a defined role and a fallback plan.

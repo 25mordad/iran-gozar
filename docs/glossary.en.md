@@ -46,6 +46,10 @@ status: draft
 
 ## B
 
+### Balanced arbitration
+
+*داوری متوازن* — A way of choosing referees and supervisors in which no side can appoint the referee alone: for example each side picks one arbiter and the two pick a third, or referees are chosen by a supermajority or by strikes and lot. It replaces a "neutral referee" whom no one believes in an atmosphere of distrust. See [Accepting the rules of the game](topics/rules-of-the-game.md).
+
 ### Basij
 
 *بسیج* — An organization founded in 1979 that later became one of the IRGC's forces [citation needed: exact dates], with a network of bases in neighborhoods, schools, universities and workplaces. This plan proposes ending its paramilitary and street activity, continuing members' pay until a final plan is announced, and converting its relief activities. See [IRGC and Basij](institutions/irgc-basij.md).
@@ -57,6 +61,10 @@ status: draft
 ### Bonyad (foundation)
 
 *بنیاد* — Institutions such as the Mostazafan Foundation, some formed after the revolution from confiscated property, that today combine welfare or charity work with extensive business activity without being accountable to elected bodies [citation needed]. This plan proposes keeping their welfare functions, placing their assets under trustee management and leaving final decisions to elected bodies. See [Bonyads](institutions/bonyads.md).
+
+### Bridging dialogue
+
+*گفت‌وگوی پل‌زن* — A public, usually online and anonymous, dialogue in which software highlights statements supported across all opinion groups rather than by one large group. The result is a "map of common ground and disagreement", not a decision. See [Accepting the rules of the game](topics/rules-of-the-game.md).
 
 ## C
 
@@ -71,6 +79,10 @@ status: draft
 ### Chamber of provinces
 
 *مجلس استان‌ها* — A second chamber representing the provinces alongside a chamber representing the population. The parliament document proposes it only if decentralization is real, and with limited powers. See [Parliament](institutions/parliament.md), [Ethnic rights and decentralization](topics/ethnic-rights-decentralization.md).
+
+### Citizens' assembly chosen by lot
+
+*مجمع شهروندی قرعه‌ای* — A group of ordinary citizens selected by lot who hear experts with different views, deliberate and make recommendations. Selection by lot settles the dispute over "who represents whom". The plan proposes such an assembly alongside the constituent assembly, which would answer each recommendation in writing. See [Accepting the rules of the game](topics/rules-of-the-game.md).
 
 ### City and village councils
 
@@ -462,6 +474,10 @@ status: draft
 
 *دادگاه انقلاب* — Courts that were meant to be temporary after 1979, are not named in the constitution, and hear security, political and major drug-trafficking cases [citation needed]. This plan proposes abolishing them and transferring their cases to the ordinary courts. See [Judiciary](institutions/judiciary.md).
 
+### Rules-of-the-game pact
+
+*پیمان قواعد بازی* — A draft short text that rival political groups could sign publicly before day zero: power only from a free vote, no elimination, no weapons, accepting results, defending a rival's rights and balanced arbitration. It says nothing about outcomes such as the form of government. Not to be confused with the "transitional social pact", which concerns wages and labor. See [Rules-of-the-game pact](rules-pact.md).
+
 ## S
 
 ### Safeguards
@@ -495,6 +511,10 @@ status: draft
 ### Special prosecutor's office
 
 *دادسرای ویژه* — An independent prosecution service for investigating and prosecuting past serious crimes, led by a prosecutor appointed for a fixed term through a transparent process with the approval of the national advisory assembly, and with a protected budget. See [Transitional justice](topics/transitional-justice.md), [Judiciary](institutions/judiciary.md).
+
+### Sufficient consensus
+
+*اجماع کافی* — A decision standard for the rules of the game: broad agreement to which no major group has a "fundamental objection", without requiring unanimity. The term was used in South Africa's negotiations [citation needed]. In this plan it applies only to rules, not to everyday policy, and a deadlock-breaking path is set in advance. See [Accepting the rules of the game](topics/rules-of-the-game.md).
 
 ### Supreme Audit Court
 

@@ -12,6 +12,8 @@
 > Everything is open, and anyone can read, criticize and correct it.
 > The final decision always belongs to the free vote of the people of Iran.
 
+**A new phase: [from text to action](docs/action/index.en.md).** Documents alone bring no one into a conversation. From now on the project's priority is creating places where Iranians with different views can talk face to face: a six-person pact table, a bridging dialogue, one-on-one conversations and taking the message to where people are.
+
 ## What is this?
 
 Gozar is a comprehensive draft framework for how Iran, in the event of regime change, can move to democracy **by preserving and reforming its institutions** and **without state collapse or violence**. It has three goals:
@@ -37,7 +39,7 @@ The initial draft was written by **an AI** speaking as an "intellectual leader" 
 
 ## What's inside
 
-The manifesto and transition phases; an overview of what happens to each of 26 institutions and 17 cross-cutting topics (full texts in Persian, English summaries of every document); "What happens to me?" (the plan's promises to each citizen); a transition scorecard; the strongest critiques of the plan itself; draft open letters to the UN, the EU, Iran's neighbors and international financial institutions; an FAQ; a roles-and-skills directory; a Persian/English glossary; and a decision log recording why every choice was made. The [original brief](docs/origin.md) given to the AI is published too.
+The manifesto and transition phases; an overview of what happens to each of 26 institutions and 18 cross-cutting topics (full texts in Persian, English summaries of every document); "What happens to me?" (the plan's promises to each citizen); a transition scorecard; a draft [rules-of-the-game pact](docs/rules-pact.en.md) that rival groups could sign before day zero; the strongest critiques of the plan itself; draft open letters to the UN, the EU, Iran's neighbors and international financial institutions; an FAQ; a roles-and-skills directory; a Persian/English glossary; and a decision log recording why every choice was made. The [original brief](docs/origin.md) given to the AI is published too.
 
 ## Contributing
 
@@ -47,6 +49,8 @@ The manifesto and transition phases; an overview of what happens to each of 26 i
 - **If you are in Iran, read this first:** [SECURITY-FOR-CONTRIBUTORS.en.md](SECURITY-FOR-CONTRIBUTORS.en.md)
 
 ## Turning on the website (for the repository owner)
+
+The site has been live at https://25mordad.github.io/iran-gozar/ since 28 September 2026. The steps below are kept for reference (for example, for a fork); step 8 is still open.
 
 The site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published automatically to GitHub Pages by GitHub Actions. **The repository owner** must do the following **once**:
 
