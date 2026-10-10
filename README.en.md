@@ -50,6 +50,8 @@ The manifesto and transition phases; an overview of what happens to each of 26 i
 
 ## Turning on the website (for the repository owner)
 
+The site has been live at https://25mordad.github.io/iran-gozar/ since 28 September 2026. The steps below are kept for reference (for example, for a fork); step 8 is still open.
+
 The site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published automatically to GitHub Pages by GitHub Actions. **The repository owner** must do the following **once**:
 
 1. **Merge into `main`.** All work is on the branch `claude/intelligent-franklin-s77d2v`. Open a pull request from it into `main` and merge. (If the repository has no `main` branch yet, create it with `git push origin claude/intelligent-franklin-s77d2v:main` and make it the default branch under **Settings → General → Default branch**.)

@@ -5,7 +5,7 @@
 > نسخه‌ی اولیه‌ی کامل برنامه‌ی گذار آماده است: بیش از پنجاه سند فارسی، اسناد کلیدی به انگلیسی، و یک سایت دوزبانه که روی گوشی و اینترنت کند کار می‌کند.
 > همه‌ی اسناد پیش‌نویس هوش مصنوعی‌اند و هنوز هیچ متخصصی آن‌ها را بازبینی نکرده است.
 > نزدیک به دو هزار ادعا در متن‌ها هنوز منبع ندارند و علامت خورده‌اند.
-> مهم‌ترین کار بعدی، روشن کردن سایت، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
+> سایت از ۶ مهر ۱۴۰۵ روی اینترنت است و مهم‌ترین کار بعدی، آغاز آزمایش «از متن به عمل»، دعوت از متخصصان برای بازبینی و پیدا کردن منبع برای ادعاهاست.
 
 **آخرین به‌روزرسانی:** ۱۵ مهر ۱۴۰۵ (۷ اکتبر ۲۰۲۶)، تغییر اولویت پروژه «از متن به عمل»
 
@@ -58,7 +58,7 @@
 | **نامه‌ها و «سؤال‌های شما»** | لحن سنجیده، درخواست‌ها و تعهدات مشخص | هنوز هیچ انسانی آن‌ها را امضا یا تأیید نکرده است |
 | **راهنماهای مشارکت** | راه ساده‌ی مرورگر با توضیح هر دکمه، راه حرفه‌ای با دستورهای دقیق، نمونه‌ی PR خوب و بد | کانال تماس بدون گیت‌هاب هنوز راه‌اندازی نشده است |
 | **مشارکت امن** | منطقه‌ی زمانی git، متادیتا، Tor و پل‌ها، رفتار و سبک نوشتن | **باید حتماً متخصص امنیت دیجیتال آن را بازبینی کند** پیش از آنکه کسی در ایران به آن تکیه کند |
-| **سایت** | راست‌به‌چپ، دوزبانه، حالت تاریک، جستجو، بدون هیچ منبع خارجی، بارگذاری سبک | در CI واقعی گیت‌هاب هنوز اجرا نشده است (نگاه کنید به «آزمون‌ها») |
+| **سایت** | راست‌به‌چپ، دوزبانه، حالت تاریک، جستجو، بدون هیچ منبع خارجی، بارگذاری سبک | از ۶ مهر ۱۴۰۵ روی GitHub Pages منتشر شده است، اما تا ۱۵ مهر هیچ مشارکتی از بیرون پروژه از راه آن نرسید |
 
 ## پس از نسخه‌ی اولیه
 
@@ -110,15 +110,15 @@
 - ساخت PDF با Chromium: ۶۸ فایل بدون خطا؛ PDF کامل فارسی حدود ۶۰۰ صفحه (حدود ۹ مگابایت) و PDF کامل انگلیسی حدود ۵۰ صفحه، با متن قابل‌انتخاب و جستجو.
 - نسخه‌ی آفلاین از روی دیسک (`file://`) باز می‌شود.
 
-**هنوز آزموده نشده:** اجرای واقعی گردش‌کارها در GitHub Actions، چون شاخه‌ی `main` و GitHub Pages هنوز راه‌اندازی نشده‌اند.
+**در GitHub Actions:** سایت از ۶ مهر ۱۴۰۵ با گردش‌کار انتشار روی GitHub Pages منتشر می‌شود و بررسی‌های «Documents and site build» و «External links» روی هر PR اجرا می‌شوند.
 
 ## قدم‌های بعدی پیشنهادی
 
 به ترتیب اولویت:
 
-1. **آغاز آزمایش چهارهفته‌ای [از متن به عمل](docs/action/index.md):** ساختن کانال تلگرام و یک راه نظر دادن بدون گیت‌هاب، پیدا کردن تسهیلگر، فرستادن نخستین دعوت‌ها برای میز شش‌نفره (نخستین دعوت برای منتقد نقد ۱۳ و ۱۴) و راه‌اندازی گفت‌وگوی پل‌زن. سایت از ۶ مهر ۱۴۰۵ روشن است.
-2. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (نگاه کنید به [رساندن به مردم](docs/action/outreach.md)) و افزودنش به راهنمای مشارکت.
-3. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال، پیش از تبلیغ پروژه در میان ساکنان ایران.
+1. **آغاز آزمایش چهارهفته‌ای [از متن به عمل](docs/action/index.md)، در مرحله‌ی اول فقط در میان ایرانیان بیرون از ایران:** ساختن کانال تلگرام و یک راه نظر دادن بدون گیت‌هاب، پیدا کردن تسهیلگر، فرستادن نخستین دعوت‌ها برای میز شش‌نفره (نخستین دعوت برای منتقد نقد ۱۳ و ۱۴) و راه‌اندازی گفت‌وگوی پل‌زن. سایت از ۶ مهر ۱۴۰۵ روشن است.
+2. **بازبینی راهنمای مشارکت امن** به دست یک متخصص امنیت دیجیتال. هیچ دعوت، پیوند یا پیامی، از جمله در آزمایش چهارهفته‌ای، پیش از تأیید این متخصص به ساکنان ایران نمی‌رسد (بخش «ایمنی» در [از متن به عمل](docs/action/index.md)).
+3. **راه‌اندازی یک کانال تماس بدون گیت‌هاب** (نگاه کنید به [رساندن به مردم](docs/action/outreach.md)) و افزودنش به راهنمای مشارکت.
 4. **تصمیم نگهدارندگان درباره‌ی هیئت بازبینی چنداردویی (ت-۰۴۵)** و، پس از آزمایش چهارهفته‌ای، یک مجمع شهروندی آزمایشی برخط با رعایت کامل ملاحظات امنیتی.
 5. **دعوت از متخصصان برای بازبینی** هر حوزه (حقوق، اقتصاد، امنیت، سلامت، آب…) و تغییر `status` اسناد بازبینی‌شده به `reviewed`.
 6. **کارزار منبع‌یابی:** ساختن issueهای «مبتدی-پسند» از فهرست ادعاهای منتظر منبع.
@@ -131,6 +131,6 @@
 
 ## In English (summary)
 
-**Current phase: from text to action.** The site has been online since 28 September 2026, but no critique or proposal came from outside the project by 7 October. Critique 14 ("it is all on paper and no one cares") was accepted and the project's priority moved from writing documents to practical action: a six-person table to rewrite the rules-of-the-game pact, an anonymous bridging dialogue with Pol.is, public one-on-one conversations, and outreach through Telegram, with a four-week experiment and clear success criteria (see [From text to action](docs/action/index.md)). The kits are ready; inviting people and hosting conversations is human work that has not started yet.
+**Current phase: from text to action.** The site has been online since 28 September 2026, but no critique or proposal came from outside the project by 7 October. Critique 14 ("it is all on paper and no one cares") was accepted and the project's priority moved from writing documents to practical action: a six-person table to rewrite the rules-of-the-game pact, an anonymous bridging dialogue with Pol.is, public one-on-one conversations, and outreach through Telegram, with a four-week experiment and clear success criteria (see [From text to action](docs/action/index.en.md)). The kits are ready; inviting people and hosting conversations is human work that has not started yet.
 
-The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 18 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: turn on the site (see README), set up a non-GitHub contact channel, have a digital-security expert review the safe-contribution guide, invite specialist reviewers, run a sourcing drive, write the missing cost-estimate and geopolitics documents, and translate. Since the first version, in response to the critique that a good design is not enough if rival groups will not accept its rules, the plan added the topic "Accepting the rules of the game" and a draft [rules-of-the-game pact](docs/rules-pact.md) that rival groups could sign publicly before day zero; no group has signed it yet, and it awaits a rewrite by people from different camps.
+The first complete version of Gozar is done: more than fifty Persian documents (26 institutions, 18 cross-cutting topics, the manifesto, transition phases, FAQ, open letters, glossary, roles directory), English versions of all key documents and English summaries of every institution and topic, and a bilingual, mobile-first static site with no external requests, per-document and complete-plan PDFs and an offline copy. Every document is an **AI-written draft that no specialist has reviewed yet**; about 1,900 claims are marked "citation needed". Next steps: start the four-week experiment, at first only among Iranians outside Iran; have a digital-security expert review the safe-contribution guide, since no outreach to people living in Iran happens before that sign-off; set up a non-GitHub contact channel; invite specialist reviewers; run a sourcing drive; write the missing cost-estimate and geopolitics documents; and translate. Since the first version, in response to the critique that a good design is not enough if rival groups will not accept its rules, the plan added the topic "Accepting the rules of the game" and a draft [rules-of-the-game pact](docs/rules-pact.en.md) that rival groups could sign publicly before day zero; no group has signed it yet, and it awaits a rewrite by people from different camps.

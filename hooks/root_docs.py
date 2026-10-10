@@ -48,7 +48,12 @@ def _rewrite_target(target: str, dest: str, root: Path) -> str:
     if path in ROOT_DOCS:
         new = posixpath.relpath(ROOT_DOCS[path], dest_dir)
     elif path.startswith("docs/"):
-        new = posixpath.relpath(path[len("docs/"):], dest_dir)
+        path = path[len("docs/"):]
+        # A Persian-only root file (STATUS.md) links to English pages for GitHub readers;
+        # on the site the i18n plugin picks the language, so point at the base page.
+        if path.endswith(".en.md") and not dest.endswith(".en.md"):
+            path = path[: -len(".en.md")] + ".md"
+        new = posixpath.relpath(path, dest_dir)
     elif (root / path).is_dir():
         return REPO_TREE + path + frag
     else:

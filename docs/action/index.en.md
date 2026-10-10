@@ -54,12 +54,15 @@ All four follow one shared page: [conversation rules](conversation-rules.md).
 
 ## The four-week experiment
 
-**Success criteria:** at least six people from at least four camps at the pact table, at least four of whom sign version 0.2; at least 200 participants and at least three distinct opinion groups in the bridging dialogue, with at least five statements backed by a majority of every group; three published one-on-one conversations; and at least one critique or proposal from outside the project through the new channels.
+**Phase one stays outside Iran.** Outreach to people living in Iran waits until a digital-security expert has reviewed and approved the [safe contribution guide](../project/security.md); the guide goes to the expert in week zero. Until then the experiment runs only among Iranians outside Iran (see Safety).
+
+**Success criteria:** at least six people from at least four camps at the pact table (five, with the sixth seat left open, if the security sign-off has not arrived by session 1), at least four of whom sign version 0.2; at least 200 participants and at least three distinct opinion groups in the bridging dialogue, with at least five statements backed by a majority of every group; three published one-on-one conversations; and at least one critique or proposal from outside the project through the new channels.
 
 **If it fails,** the log records exactly where it got stuck, and the next experiment is designed from that. What must not happen again is writing more documents without testing them in the real world.
 
 ## Safety
 
+- **No outreach inside Iran before the security sign-off.** Until a digital-security expert has reviewed and approved the [safe contribution guide](../project/security.md), no invitation, link or message is posted in groups or channels whose members are in Iran, the Telegram channel is not promoted inside Iran, and no one living in Iran is invited to the pact table or a one-on-one conversation. The date of the sign-off is recorded in the [experiment log](log.md) (Persian).
 - No one living in Iran is asked to take part publicly under their real name or with their real voice; their participation is anonymous or pseudonymous only.
 - No list of participants' names, phone numbers or emails is kept anywhere in this project.
 - Before taking part, read the [safe contribution guide](../project/security.md).

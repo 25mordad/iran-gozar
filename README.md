@@ -78,6 +78,8 @@ hooks/, overrides/, scripts/  کد سایت
 
 ## راه‌اندازی سایت (برای صاحب مخزن)
 
+سایت از ۶ مهر ۱۴۰۵ (۲۸ سپتامبر ۲۰۲۶) در نشانی https://25mordad.github.io/iran-gozar/ روی اینترنت است. گام‌های زیر برای مراجعه (مثلاً برای یک نسخه‌ی جداشده از مخزن) نگه داشته شده‌اند؛ گام ۸ هنوز انجام نشده است.
+
 سایت با [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) ساخته می‌شود و با GitHub Actions خودکار روی GitHub Pages منتشر می‌شود. برای روشن کردن آن، **صاحب مخزن** باید این کارها را **یک بار** انجام دهد:
 
 1. **ادغام در شاخه‌ی `main`.** همه‌ی کار روی شاخه‌ی `claude/intelligent-franklin-s77d2v` است. یک Pull Request از این شاخه به `main` بسازید و ادغام کنید. (اگر مخزن هنوز شاخه‌ی `main` ندارد: در صفحه‌ی مخزن، **Settings → General → Default branch** را ببینید؛ یا با دستور `git push origin claude/intelligent-franklin-s77d2v:main` شاخه‌ی `main` را بسازید و آن را شاخه‌ی پیش‌فرض کنید.)
